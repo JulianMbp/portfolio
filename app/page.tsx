@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="bg-[#ff1111] w-screen h-screen">
       {/* Header */}
-        <header className="md:ml-[20%] md:mr-[20%] w-auto m-2 fixed p-2 grid grid-cols-1 md:grid-cols-7 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent gap-3 border border-slate-100 rounded-3xl shadow-2xl shadow-black">
+        <header className=" md:ml-[20%] md:mr-[20%] w-auto m-2 fixed p-2 grid grid-cols-1 md:grid-cols-7 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent gap-3 border border-slate-100 rounded-3xl shadow-2xl shadow-black">
           {/* About Me */}
             <a className="order-1 border hover:border-hidden hover:scale-110 hover:shadow-2xl transition-all active:scale-95 border-slate-100 rounded-3xl items-center md:p-1 flex gap-2 shadow-2xl h-5 w-5 md:h-auto md:w-auto" href="#about">
               <svg className=" h-5 w-5 text-slate-100"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />  <circle cx="12" cy="7" r="4" /></svg>
@@ -39,8 +39,9 @@ export default function Home() {
               <h2 className="text-slate-100 font-regular hidden md:block">Training</h2>
             </a>
         </header>
-        <section className="w-screen h-screen">
-                <h1 className="text-slate-50 font-medium items-center justify-center">Julian_MBP.dev</h1>
+        <section className="flex flex-col w-screen h-screen justify-center items-center border">
+                <h1 className=" cols-span-1 text-slate-50 font-medium text-5xl text-center">logo</h1>
+                <h1 className=" cols-span-1 text-slate-50 font-medium text-5xl text-center text-nowrap">Julian_MBP.dev</h1>
         </section>
     </main>
   );
