@@ -1,7 +1,7 @@
 import immgAout from '../public/img/Imagen_About_Me.jpg';
 export default function Home() {
   return (
-    <main className="bg-[#ff1111] w-screen h-screen grid grid-cols-1 md:justify-center">
+    <main className=" bg-gradient-to-b from-[#4D0202] via-[#AA0A0A] to-[#CE0707] w-screen h-screen grid grid-cols-1 md:justify-center">
       {/* Header */}
         <header className="order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-7 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent gap-3 border border-slate-100 rounded-3xl shadow-2xl shadow-black">
           {/* About Me */}
@@ -41,7 +41,7 @@ export default function Home() {
             </a>
         </header>
       {/* Portada de portafolio */}
-        <section className=" order-2 flex flex-col w-screen h-screen justify-center items-center gap-5">
+        <section className=" col-span-1 order-2 flex flex-col w-screen h-screen justify-center items-center gap-5">
                 {/* Logo */}
                 <h1 className=" cols-span-1 text-slate-50 font-medium text-5xl text-center">logo</h1>
                 {/* Nombre */}
@@ -53,15 +53,16 @@ export default function Home() {
                 </button>
         </section>
       {/* About Me */}
-        <section className="ml-2 order-3 grid grid-cols-2 justify-center items-center  " id='about'>
-            <h1 className='font-extrabold text-[1200%] order-1 ml-10'>About <br /> Me</h1>
-            <p className="text-3xl order-3 ml-10 ">¡Hola! 👋 <br />
+        <section className="bg-gradient-to-t from-[#4D0202] via-[#AA0A0A] to-[#CE0707] col-span-1 pl-2 order-3 grid grid-cols-2 justify-center items-center  " id='about'>
+            
+            <h1 className='font-extrabold text-[1200%] order-1 pl-10 text-slate-50'>About <br /> Me</h1>
+            <p className="text-3xl order-3 pl-10 text-slate-50">¡Hola! 👋 <br />
                 Soy Julián M. Bastidas Pérez, ingeniero de software en formación 🧑‍💻. <br />
                 Me encanta crear cosas innovadoras y llevar ideas al siguiente nivel 🚀. <br />
-                Soy una persona divertida, extrovertida y me apasiona programar todo lo que puedas imaginar 💡💻. <br />
+                Soy una persona divertida, extrovertida y me apasiona programar todo lo que puedas imaginar 💡💻.
                 Vivo en la hermosa ciudad de Pasto 🏞️, y actualmente estoy cursando el sexto semestre de Ingeniería de Software.
                 Siempre que te cruces conmigo, te recibiré con mi mejor sonrisa 😁✨.</p>
-            <h1 className="order-2 row-span-2">Imgen</h1>
+            <h1 className="order-2 row-span-2 text-center">Imgen</h1>
         {/* <img className="rounded-lg box-border h-25 w-25 opacity-50 order 1" src="immgAout"></img> */}
         </section>
     </main>
