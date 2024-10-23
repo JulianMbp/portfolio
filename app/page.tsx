@@ -55,7 +55,7 @@ export default function Home() {
       {/* About Me */}
         <section className="bg-gradient-to-t from-[#4D0202] via-[#AA0A0A] to-[#CE0707] col-span-1 pl-2 order-3 grid grid-cols-2 justify-center items-center  " id='about'>
             
-            <h1 className='font-extrabold text-[1200%] order-1 pl-10 text-slate-50'>About <br /> Me</h1>
+            <h1 className='font-extrabold text-[800%] order-1 pl-10 text-slate-50'>About <br /> Me</h1>
             <p className="text-3xl order-3 pl-10 text-slate-50">¡Hola! 👋 <br />
                 Soy Julián M. Bastidas Pérez, ingeniero de software en formación 🧑‍💻. <br />
                 Me encanta crear cosas innovadoras y llevar ideas al siguiente nivel 🚀. <br />
