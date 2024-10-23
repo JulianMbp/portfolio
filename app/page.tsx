@@ -59,7 +59,8 @@ export default function Home() {
                 Soy Julián M. Bastidas Pérez, ingeniero de software en formación 🧑‍💻. <br />
                 Me encanta crear cosas innovadoras y llevar ideas al siguiente nivel 🚀. <br />
                 Soy una persona divertida, extrovertida y me apasiona programar todo lo que puedas imaginar 💡💻. <br />
-                Vivo en la hermosa ciudad de Pasto 🏞️, y actualmente estoy cursando el sexto semestre de Ingeniería de Software.
+                Vivo en la hermosa ciudad de Pasto 🏞️, <br />
+                y actualmente estoy cursando el sexto semestre de Ingeniería de Software. <br />
                 Siempre que te cruces conmigo, te recibiré con mi mejor sonrisa 😁✨.</p>
             <h1 className="order-2 row-span-2">Imgen</h1>
         {/* <img className="rounded-lg box-border h-25 w-25 opacity-50 order 1" src="immgAout"></img> */}
