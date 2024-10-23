@@ -1,9 +1,8 @@
-import immgAout from '../public/img/Imagen_About_Me.jpg';
 export default function Home() {
   return (
-    <main className=" bg-gradient-to-b from-[#4D0202] via-[#AA0A0A] to-[#CE0707] w-screen h-screen grid grid-cols-1 md:justify-center">
+    <main className="flex flex-col md:items-center bg-gradient-to-b from-[#4D0202] via-[#AA0A0A] to-[#CE0707] w-screen h-screen overflow-auto">
       {/* Header */}
-        <header className="order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-7 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent gap-3 border border-slate-100 rounded-3xl shadow-2xl shadow-black">
+        <header className=" order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-7 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent gap-3 border border-slate-100 rounded-3xl shadow-2xl shadow-black">
           {/* About Me */}
             <a className="order-1 border hover:border-hidden hover:scale-110 hover:shadow-2xl transition-all active:scale-95 border-slate-100 rounded-3xl items-center md:p-1 flex gap-2 shadow-2xl h-5 w-5 md:h-auto md:w-auto" href="#about">
               <svg className=" h-5 w-5 text-slate-100"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />  <circle cx="12" cy="7" r="4" /></svg>
@@ -41,7 +40,7 @@ export default function Home() {
             </a>
         </header>
       {/* Portada de portafolio */}
-        <section className=" col-span-1 order-2 flex flex-col w-screen h-screen justify-center items-center gap-5">
+        <section className="py-[500px]  flex flex-col h-[400px] justify-center items-center gap-5">
                 {/* Logo */}
                 <h1 className=" cols-span-1 text-slate-50 font-medium text-5xl text-center">logo</h1>
                 {/* Nombre */}
@@ -49,11 +48,11 @@ export default function Home() {
                 {/* Boton contacto */}
                 <button className="flex items-center rounded-3xl p-3 bg-blue-500 gap-3 shadow-xl hover:border-hidden hover:scale-110 hover:shadow-2xl transition-all shadow-black">
                   <svg className="h-8 w-8 text-slate-100"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-                  <h1 className="text-slate-100 font-regular hidden md:block">Contact_Wiht_Me</h1>
+                  <h1 className="text-slate-100 font-regular hidden md:block">Contact_With_Me</h1>
                 </button>
         </section>
       {/* About Me */}
-        <section className="bg-gradient-to-t from-[#4D0202] via-[#AA0A0A] to-[#CE0707] col-span-1 pl-2 order-3 grid grid-cols-2 justify-center items-center  " id='about'>
+        <section className=" pl-2 grid grid-cols-2 justify-center items-center  " id='about'>
             
             <h1 className='font-extrabold text-[800%] order-1 pl-10 text-slate-50'>About <br /> Me</h1>
             <p className="text-3xl order-3 pl-10 text-slate-50">¡Hola! 👋 <br />
