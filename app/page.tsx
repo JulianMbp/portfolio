@@ -13,7 +13,7 @@ export default function Home() {
         <main className='dark:text-gray-200 flex flex-col md:items-center
         bg-gradient-to-b from-[#4D0202] via-[#AA0A0A] to-[#CE0707] to-[#AA0A0A] to-[#4D0202] 
         overflow-auto inset-0'>
-        <Header />
+        <Header />        
         <Portada />
         <AboutMe />
         <Projects />

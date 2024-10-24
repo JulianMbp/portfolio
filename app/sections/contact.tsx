@@ -2,7 +2,7 @@ import { div } from "framer-motion/client"
 
 const contact = () => {
     return (
-        <div className="hidden active:block" id="contact">
+        <div className="hidden" id="contact">
             hola
         </div>
     )
