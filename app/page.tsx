@@ -6,7 +6,9 @@ import Experience from "./sections/experience";
 import Life from "./sections/life";
 import Pets from "./sections/pets";
 import Music from "./sections/music";
+import Training from "./sections/training";
 import Contact from "./sections/contact";
+
 import Footer from "./sections/footer";
 export default function Home() {
     return ( 
@@ -21,6 +23,7 @@ export default function Home() {
         <Life />
         <Pets />
         <Music />
+        <Training />
         <Contact />
         <Footer />
         </main>
