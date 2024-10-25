@@ -14,7 +14,7 @@ const aboutMe = () => {
                 Soy una persona divertida, extrovertida y me apasiona programar todo lo que puedas imaginar 💡💻.
                 Vivo en la hermosa ciudad de Pasto 🏞️, y actualmente estoy cursando el sexto semestre de Ingeniería de Software.
                 Siempre que te cruces conmigo, te recibiré con mi mejor sonrisa 😁✨.</p>
-            <div className="pt-56 order-2 md:order-2 p-5 object-center md:row-span-2 md:rounded-lg rounded-full item-center justify-center  ">
+            <div className="md:pt-56 order-2 md:order-2 p-5 object-center md:row-span-2 md:rounded-lg rounded-full item-center justify-center  ">
                 <Image className=" rounded-full md:rounded-3xl h-[350px] w-[300px]  object-cover md:object-cover shadow-2xl shadow-black" src={ImgAbout} alt="" />
             </div> 
         </section>
