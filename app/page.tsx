@@ -4,6 +4,7 @@ import AboutMe from "./sections/aboutMe";
 import Projects from "./sections/projects";
 import Experience from "./sections/experience";
 import Life from "./sections/life";
+import Video from "./sections/video";
 import Pets from "./sections/pets";
 import Music from "./sections/music";
 import Training from "./sections/training";
@@ -21,6 +22,7 @@ export default function Home() {
         <Projects />
         <Experience />
         <Life />
+        <Video />
         <Pets />
         <Music />
         <Training />
