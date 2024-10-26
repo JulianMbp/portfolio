@@ -2,9 +2,9 @@ import { div } from "framer-motion/client"
 
 const contact = () => {
     return (
-        <div className="hidden" id="contact">
+        <section className="hidden" id="contact">
             
-        </div>
+        </section>
     )
 }
 export default contact

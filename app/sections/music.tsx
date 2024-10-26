@@ -1,8 +1,8 @@
 const music = () => {
     return (
-        <div id="music">
+        <section id="music">
             
-        </div>
+        </section>
     )
 }
 

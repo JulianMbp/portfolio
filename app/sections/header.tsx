@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <div className="flex flex-col md:items-center">
+        <section className="flex flex-col md:items-center">
           <header className=" order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-7 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent gap-3 border border-slate-100 rounded-3xl shadow-2xl shadow-black">
                 {/* About Me */}
                   <a className=" order-1 hover:duration-500 border hover:border-hidden hover:scale-110 hover:shadow-2xl transition-all active:scale-95 active:duration-100 border-slate-100 rounded-3xl items-center md:p-1 flex gap-2 shadow-2xl h-5 w-5 md:h-auto md:w-auto" href="#about">
@@ -38,7 +38,7 @@ const Header = () => {
                     <h2 className="text-slate-100 font-regular hidden md:block">Training</h2>
                   </a>
           </header>
-        </div>
+        </section>
     );
 }
 export default Header;

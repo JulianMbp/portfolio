@@ -1,6 +1,6 @@
 const pets = () => {
     return (
-        <div id="pets"></div>
+        <section id="pets"></section>
     )
 }
 

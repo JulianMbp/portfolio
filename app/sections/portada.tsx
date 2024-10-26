@@ -3,7 +3,7 @@ import Image from "next/image"
 import {Button} from "@nextui-org/react";
 const portada = () => {
     return (
-        <div>
+        <section>
             {/* Portada de portafolio */}
             <section className="py-[500px] flex flex-col h-[400px] justify-center items-center gap-5 " id="home">
                     {/* Logo */}
@@ -18,7 +18,7 @@ const portada = () => {
                         <h1 className="text-slate-100 font-regular hidden md:block">Contact_With_Me</h1>
                     </a>
             </section>
-        </div>
+        </section>
     )
 }
 export default portada
