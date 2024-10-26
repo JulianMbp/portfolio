@@ -1,6 +1,6 @@
 const projects = () => {
 return (
-    <div></div>
+    <div id="projects"></div>
 )
 }
 

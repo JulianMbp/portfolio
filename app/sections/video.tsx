@@ -1,6 +1,6 @@
 const video = () => {
     return (
-        <div>
+        <div id="video">
             
         </div>
         );

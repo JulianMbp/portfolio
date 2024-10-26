@@ -1,6 +1,6 @@
 const training = () => {
     return (
-        <div></div>
+        <div id="training"></div>
     )
 }
 export default training
