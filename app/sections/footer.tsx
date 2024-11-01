@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-    <footer className='flex flex-col text-white items-center justify-center border-t-1 border-slate-300 border-opacity-50 w-screen py-2'>
+    <footer className='bg-gradient-to-t to-[#AA0A0A] to-[#4D0202]  flex flex-col text-white items-center justify-center border-t-1 border-slate-300 border-opacity-50 w-screen py-2'>
         Copyright &copy; 2024
         <ul className='flex text-center gap-5 py-4 text-sm'>
         <li >
