@@ -1,7 +1,7 @@
 const music = () => {
     return (
-        <section id="music">
-            
+        <section id="music" className="">
+                hola
         </section>
     )
 }
