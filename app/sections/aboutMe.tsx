@@ -7,7 +7,7 @@ const aboutMe = () => {
         <section className="px-10 md:px-48 my-[200px] items-center justify-center" id='about'>
             {/* About Me */}
         <section className="grid grid-cols-1 md:grid-cols-2 grid-rows-[0fr_1fr]" >
-            <h1 className='font-extrabold text-8xl md:text-9xl md:order-1 h-[80%] order-1 text-slate-50 text-center md:text-left col-span-2 md:col-span-1 '>About Me</h1>
+            <h1 className='font-extrabold from-content2-foreground text-8xl md:text-9xl md:order-1 h-[80%] order-1 text-slate-50 text-center md:text-left col-span-2 md:col-span-1 '>About Me</h1>
             <p className="text-3xl order-3 md:order-3 text-slate-50 col-span-2 md:col-span-1  ">¡Hola! 👋 <br />
                 Soy Julián M. Bastidas Pérez, ingeniero de software en formación 🧑‍💻.
                 Me encanta crear cosas innovadoras y llevar ideas al siguiente nivel 🚀.
