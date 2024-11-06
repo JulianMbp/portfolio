@@ -1,12 +1,12 @@
 import Image from "next/image"
-import IconPets from "../img/Pets.png"
-import Samy from "../img/pets/Samy.jpeg"
-import Bruno from "../img/pets/Bruno.jpg"
-import Luna from "../img/pets/Luna.jpg"
-import Maya from "../img/pets/Maya.jpg"
-import Nacho from "../img/pets/Nacho.jpg"
-import Popocha from "../img/pets/Popocha.jpg"
-import Brownie from "../img/pets/Brownie.jpeg"
+import IconPets from "../../public/img/Pets.png"
+import Samy from "../../public/img/pets/Samy.jpeg"
+import Bruno from "../../public/img/pets/Bruno.jpg"
+import Luna from "../../public/img/pets/Luna.jpg"
+import Maya from "../../public/img/pets/Maya.jpg"
+import Nacho from "../../public/img/pets/Nacho.jpg"
+import Popocha from "../../public/img/pets/Popocha.jpg"
+import Brownie from "../../public/img/pets/Brownie.jpeg"
 const pets = () => {
     return (
         <section id="pets" className="items-center justify-center text-center border px-24 p-10 mb-36 flex flex-col">
