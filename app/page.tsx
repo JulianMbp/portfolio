@@ -1,5 +1,4 @@
 import Header  from "./sections/header"
-import Portada from "./sections/portada";
 import AboutMe from "./sections/aboutMe";
 import Projects from "./sections/projects";
 import Experience from "./sections/experience";
@@ -16,8 +15,8 @@ export default function Home() {
         <main className='dark:text-gray-200 flex flex-col md:items-center
         bg-gradient-to-b from-[#4D0202] via-[#AA0A0A] to-[#CE0707]
         overflow-auto inset-0'>
-        <Header />        
-        <Portada />
+        <Header />  
+        <Contact />      
         <AboutMe />
         <Projects />
         <Experience />
@@ -26,7 +25,6 @@ export default function Home() {
         <Pets />
         <Music />
         <Training />
-        <Contact />
         <Footer />
         </main>
     );}

@@ -15,7 +15,7 @@ const aboutMe = () => {
                 Vivo en la hermosa ciudad de Pasto 🏞️, y actualmente estoy cursando el sexto semestre de Ingeniería de Software.
                 Siempre que te cruces conmigo, te recibiré con mi mejor sonrisa 😁✨.</p>
             <div className="md:py-10 md:px-10  order-2 md:order-2 p-5 object-cover md:row-span-2 md:rounded-lg rounded-full  ">
-                <Image className=" rounded-full md:rounded-3xl  h-[350px] md:h-[100%] md:w-[100%]  object-cover md:object-cover shadow-2xl shadow-black" src={ImgAbout} alt="" />
+                <Image className=" rounded-full md:rounded-3xl  h-[350px] md:h-[100%] sm:w-[100%]  object-cover md:object-cover shadow-2xl shadow-black" src={ImgAbout} alt="" />
             </div>
         </section>
         </section>

@@ -2,6 +2,8 @@
 
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
+import Logo from "../img/Logo.svg"
+import Image from 'next/image';
 
 interface ModalProps {
   isOpen: boolean;
@@ -40,9 +42,13 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
               <Dialog.Panel className='w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all'>
                 <Dialog.Title
                   as='h3'
-                  className='text-lg font-medium leading-6 text-gray-900'
+                  className='text-lg font-medium leading-6 flex items-center gap-1 text-gray-900'
                 >
-                  {title}
+                  <Image className="w-20 object-cover md:object-cover" src={Logo} alt="" />
+                  <dl className=''>
+                    <p className='text-xl'>Julian M. Bastidas Perez </p>
+                    <p className='text-lg opacity-60 text-gray-950'>{title}</p>
+                  </dl>
                 </Dialog.Title>
                 <div className='mt-4'>{children}</div>
                 <div className='mt-4'>
