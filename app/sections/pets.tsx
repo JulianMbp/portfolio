@@ -1,56 +1,32 @@
 import Image from "next/image"
 import IconPets from "../../public/img/Pets.png"
-import Samy from "../../public/img/pets/Samy.jpeg"
-import Bruno from "../../public/img/pets/Bruno.jpg"
-import Luna from "../../public/img/pets/Luna.jpg"
-import Maya from "../../public/img/pets/Maya.jpg"
-import Nacho from "../../public/img/pets/Nacho.jpg"
-import Popocha from "../../public/img/pets/Popocha.jpg"
-import Brownie from "../../public/img/pets/Brownie.jpeg"
+import BrunoCard from "./Pets/Bruno"
+import NachoCard from "./Pets/Nacho"
+import LunaCard from "./Pets/Luna"
+import PopochaCard from "./Pets/Popocha"
+import BrownieCard from "./Pets/Brownie"
+import MayaCard from "./Pets/Maya"
+import SamyCard from "./Pets/Samy"
 const pets = () => {
     return (
-        <section id="pets" className="items-center justify-center text-center border px-24 p-10 mb-36 flex flex-col">
+        <section id="pets" className="items-center justify-center text-center border md:px-24 p-10 mb-36 flex flex-col">
             <Image src={IconPets} alt="IconPets" />
-            <dl className="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-5 mt-10 text-slate-50">
-                <section className="flex p-5  ">
-                    <Image className="rounded-full md:rounded-3xl md:h-auto md:w-[200px] object-cover " src={Bruno} alt="" />
-                    <dl className="flex flex-col pl-3">
-                        <h1 className=" font-bold font-serif text-left text-7xl">Bruno</h1>
-                        <p className="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatem sed laboriosam cumque a soluta repudiandae. Magnam necessitatibus fugit odio hic labore tenetur dolorem, in impedit suscipit, et magni voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </dl>
-                </section>
-                <section className="flex p-5 ">
-                    <Image className="object-right rounded-full md:rounded-3xl md:h-[auto] md:w-[100px] object-cover" src={Nacho} alt="" />
-                    <dl className="flex flex-col pl-3">
-                    <h1 className="font-bold font-serif text-left text-7xl">Nacho</h1>
-                    <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatibus consequatur nesciunt eveniet deleniti ab, qui placeat quasi ut dolor, quam veniam architecto sapiente. Magni enim aut distinctio doloremque quisquam!</p>
-                    </dl>
-                </section>
-                <section className="flex flex-col">
-                    <Image className="rounded-full md:h-[100px] md:w-[100px] object-cover" src={Luna} alt="" />
-                    <h1>Luna</h1>
-                    <p></p>
-                </section>
-                <section className="flex flex-col">
-                    <Image className="rounded-full md:h-[100px] md:w-[100px] object-cover" src={Maya} alt="" />
-                    <h1>Maya</h1>
-                    <p></p>
-                </section>
-                <section className="flex flex-col">
-                    <Image className="rounded-full md:h-[100px] md:w-[100px] object-cover" src={Popocha} alt="" />
-                    <h1>Popocha</h1>
-                    <p></p>
-                </section>
-                <section className="flex flex-col">
-                    <Image className="rounded-full md:h-[100px] md:w-[100px] object-cover" src={Brownie} alt="" />
-                    <h1>Brownie</h1>
-                    <p></p>
-                </section>
-                <section className="flex flex-col">
-                    <Image className="rounded-full md:h-[100px] md:w-[100px] object-cover" src={Samy} alt="" />
-                    <h1>Samy</h1>
-                    <p></p>
-                </section>
+            <dl className="grid grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-5 lg:gap-x-20 mt-28 text-slate-50 justify-between">
+                {/* bruno */}
+                <BrunoCard />
+                {/* Nacho */}
+                <NachoCard />
+                {/* Luna */}
+                <LunaCard />
+                {/* Popocha */}
+                <PopochaCard />
+                {/* Brownie */}
+                <BrownieCard />
+                {/* Maya */}
+                <MayaCard />
+                {/* Samy */}
+                <SamyCard />
+                
             </dl>
         </section>
     )

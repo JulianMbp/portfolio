@@ -1,14 +1,14 @@
 const music = () => {
     return (
-        <section id="music" className=" text-center md:w-[90%] items-center justify-center mb-10 flex flex-col ">
+        <section id="music" className=" text-center md:w-[90%] items-center justify-center mb-10 flex flex-col mt-40">
             <h1 className="font-extralight font-serif text-8xl md:text-9xl order-1 text-slate-50 text-center md:text-left mb-16">My Music</h1>
-            <svg className="hidden md:block animate-bounce h-64 w-64 md:-ml-[1250px] md:-mb-[100px] text-slate-100"  width="24"  height="24"  viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 18V5l12-2v13" />  <circle cx="6" cy="18" r="3" />  <circle cx="18" cy="16" r="3" /></svg>
+            <svg className="hidden lg:block animate-bounce h-64 w-64 md:-ml-[1250px] md:-mb-[100px] text-slate-100"  width="24"  height="24"  viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 18V5l12-2v13" />  <circle cx="6" cy="18" r="3" />  <circle cx="18" cy="16" r="3" /></svg>
             <svg className="h-64 w-64 text-slate-100 hidden md:block animate-bounce md:-mr-[1250px] md:-mb-[500px] "  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="6" cy="17" r="3" />  <circle cx="16" cy="17" r="3" />  <polyline points="9 17 9 4 19 4 19 17" />  <line x1="9" y1="8" x2="19" y2="8" /></svg>
 
-            <dl className="order-2 border border-slate-50  md:w-[60%]  flex flex-col justify-between gap-2 shadow-2xl">
+            <dl className="order-2 border border-slate-50 w-[300px] md:w-[60%]  flex flex-col justify-between gap-2 shadow-2xl">
                 {/* Imagen de portada */}
                 <section className="order-1 items-center justify-center flex">
-                    <dt className="border border-slate-50 w-[90%] h-[400px] mt-5">
+                    <dt className="border border-slate-50 w-[90%] md:w-[90%] h-[200px] md:h-[400px] mt-5">
                         hola
                     </dt>
                 </section>
