@@ -2,7 +2,7 @@
 
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
-import Logo from "../img/Logo.svg"
+import Logo from "../img/AboutMePerfil.jpg";
 import Image from 'next/image';
 
 interface ModalProps {
@@ -44,7 +44,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
                   as='h3'
                   className='text-lg font-medium leading-6 flex items-center gap-1 text-gray-900'
                 >
-                  <Image className="w-20 object-cover md:object-cover" src={Logo} alt="" />
+                  <Image className="w-20 h-20 object-cover rounded-full " src={Logo} alt="" />
                   <dl className=''>
                     <p className='text-xl'>Julian M. Bastidas Perez </p>
                     <p className='text-lg opacity-60 text-gray-950'>{title}</p>
