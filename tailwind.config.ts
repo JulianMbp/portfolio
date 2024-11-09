@@ -50,7 +50,19 @@ const config: Config = {
         '900': '#7a4509',
         '950': '#572a00',
     },
-    
+    'minecraft-border': {
+        '50': '#f7f7f7',
+        '100': '#ededed',
+        '200': '#dfdfdf',
+        '300': '#c6c6c6',
+        '400': '#adadad',
+        '500': '#999999',
+        '600': '#888888',
+        '700': '#7b7b7b',
+        '800': '#676767',
+        '900': '#545454',
+        '950': '#363636',
+    },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
