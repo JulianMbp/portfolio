@@ -40,7 +40,7 @@ const Header = () => {
                     <h2 className="text-slate-100 font-regular hidden md:block">Training</h2>
                   </a>
           </header>
-          <dl className="md:ml-[1100px] md:mt-2 mt-[225px] fixed ">
+          <dl className="md:ml-[1100px] md:mt-2 mt-[222px] fixed ml-2">
             <ButtonPage/>
           </dl>
           
