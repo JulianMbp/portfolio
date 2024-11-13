@@ -63,6 +63,20 @@ const config: Config = {
         '900': '#545454',
         '950': '#363636',
     },
+    'experiencie': {
+        '50': '#fdfbe9',
+        '100': '#fcf6c5',
+        '200': '#faeb8e',
+        '300': '#f6d84e',
+        '400': '#f1c31e',
+        '500': '#e1ab11',
+        '600': '#b77c0b',
+        '700': '#9b5e0d',
+        '800': '#804b13',
+        '900': '#6d3d16',
+        '950': '#401f08',
+    },
+    
       },
       backgroundImage: {
         'hero-pattern': "url('./public/img/texture.jpg')",
