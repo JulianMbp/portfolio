@@ -12,7 +12,7 @@ const lunaCard = () => {
         object-cover md:object-top lg:object-cover shadow-2xl shadow-black" src={Luna} alt="" />
         <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-lunaColor-950 font-serif pr-10">
             <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center text-center md:justify-center md:items-center md:text-center lg:text-left">
-                <h1 className="text-4xl lg:text-left ">Luna 🌙</h1>
+                <h1 className="text-4xl lg:text-left ">Luna🌙</h1>
                 <h1 className="text-2xl  text-brunoColor-950 text-opacity-80">Edad: 16 años</h1>
             </dl>
             <p className=" text-lunaColor-950  text-opacity-80">West highland White terrier</p>

@@ -1,7 +1,8 @@
-import ButtonSmall from "../components/ButtonSmall";
+
+import ButtonPage from "@/app/components/ButtonSmall";
 const Header = () => {
     return (
-        <section className="flex flex-col md:items-center">
+        <section className="flex flex-col md:items-center border">
           <header className="gap-2 md:justify-between order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-7 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent border border-slate-100 rounded-3xl">
                 {/* About Me */}
                   <a className=" order-1 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200 md:pl-2 flex gap-2 shadow-2xl  items-center h-5 w-5 md:h-auto md:w-auto" href="#about">
@@ -39,8 +40,9 @@ const Header = () => {
                     <h2 className="text-slate-100 font-regular hidden md:block">Training</h2>
                   </a>
           </header>
-        
-            <ButtonSmall/>
+          <dl className="md:ml-[1100px] md:mt-2 mt-[225px] fixed ">
+            <ButtonPage/>
+          </dl>
           
         </section>
     );
