@@ -12,7 +12,7 @@ const mayaCard = () => {
         object-cover lg:object-cover shadow-2xl shadow-black" src={Maya} alt="" />
         <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-brunoColor-200 font-serif pr-10">
             
-            <dl className="flex justify-between">
+            <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center text-center md:justify-center md:items-center md:text-center lg:text-left">
             <h1 className="text-4xl lg:text-left text-slate-50">Maya 🌞</h1>
                 <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 13 años</h1>
             </dl>

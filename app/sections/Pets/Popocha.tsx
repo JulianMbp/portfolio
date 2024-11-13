@@ -12,7 +12,7 @@ const PopochaCard = () => {
         object-cover md:object-top lg:object-cover shadow-2xl shadow-black" src={Popocha} alt="" />
         <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-slate-50 font-serif pr-10">
             
-            <dl className="flex justify-between">
+            <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center text-center md:justify-center md:items-center md:text-center lg:text-left">
                 <h1 className="text-4xl lg:text-left ">Popocha </h1>
                 <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 2 años</h1>
             </dl>
