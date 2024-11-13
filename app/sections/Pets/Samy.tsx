@@ -12,12 +12,17 @@ const SamyCard = () => {
             lg:my-10 lg:-ml-10 lg:h-[280px] lg:w-[250px]  
             object-cover lg:object-cover shadow-2xl shadow-black" src={Samy} alt="" />
             <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-lunaColor-950 font-serif">
+                
+            <dl className="flex justify-between">
                 <h1 className="text-4xl lg:text-left ">Samy 🪽</h1>
-                <p className=" text-lunaColor-950 text-opacity-80">Gato Naranja</p>
-                <p className=" text-lunaColor-950 text-sm text-opacity-50 pb-5 px-10 lg:px-0 lg:pb-0">Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-                Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-                Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-                Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
+                <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 16 años</h1>
+            </dl>
+                <p className=" text-lunaColor-950 text-opacity-80">Bichón Frisé</p>
+                <p className=" text-lunaColor-950 text-sm text-opacity-60 pb-5 px-10 lg:px-0 lg:pb-0 lg:text-left">
+                    Samy fue una pequeña Bichón Frisé, una perrita alegre, juguetona y llena de felicidad que dejó una huella profunda en el corazón de su familia. Siempre fue muy querida por todos, aunque también tenía su carácter bravo, que la hacía única. Amaba su caja, el pollito, y su comida húmeda en lata, pequeños placeres que disfrutaba con entusiasmo.
+        <br />
+        <br />
+El 12 de junio de 2024, Samy partió, dejando hermosos recuerdos y el amor que compartió con su mamá. Hasta el último momento, Samy estuvo a su lado, queriéndola y haciéndola feliz. Su amor incondicional y leal será recordado siempre con mucho cariño.
                 </p>
             </dl>
             </dl>

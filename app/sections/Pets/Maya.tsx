@@ -10,13 +10,15 @@ const mayaCard = () => {
         h-[150px] w-[150px] sm:h-[250px] sm:w-[90%] -mt-10 
         lg:my-10 lg:-ml-10 lg:h-[280px] lg:w-[250px]  
         object-cover lg:object-cover shadow-2xl shadow-black" src={Maya} alt="" />
-        <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-brunoColor-200 font-serif">
-            <h1 className="text-4xl lg:text-left ">Maya</h1>
-            <p className=" text-opacity-80">Gato Naranja</p>
-            <p className="  text-sm text-opacity-50 pb-5 px-10 lg:px-0 lg:pb-0">Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-            Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-            Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-            Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
+        <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-brunoColor-200 font-serif pr-10">
+            
+            <dl className="flex justify-between">
+            <h1 className="text-4xl lg:text-left text-slate-50">Maya 🌞</h1>
+                <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 13 años</h1>
+            </dl>
+            <p className="text-slate-50 text-opacity-80">Labrador Mestiza</p>
+            <p className="text-slate-50  text-sm text-opacity-50 pb-5 px-10 lg:px-0 lg:pb-0 lg:text-left">
+                ¡Hola! Soy Maya, una perrita mestiza de aspecto robusto y amigable, con un poquito de Labrador o Retriever en mi sangre. Soy juguetona y alegre, aunque, si soy sincera, ¡también soy perezosa y dormilona! Mi lugar favorito es mi sillón o mi cama, donde me encanta echarme a disfrutar del sueño. Soy la consentida de papá, y me encanta comer, especialmente pollito. Ya soy viejita, llena de sabiduría, y he vivido toda mi vida en esta casa, donde recibo a los visitantes con mi encanto especial.
             </p>
         </dl>
         </dl>

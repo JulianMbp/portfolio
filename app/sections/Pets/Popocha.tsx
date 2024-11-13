@@ -10,13 +10,15 @@ const PopochaCard = () => {
         h-[150px] w-[150px] sm:h-[250px] sm:w-[90%] -mt-10 
         lg:my-10 lg:-ml-10 lg:h-[280px] lg:w-[250px]  
         object-cover md:object-top lg:object-cover shadow-2xl shadow-black" src={Popocha} alt="" />
-        <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-slate-50 font-serif">
-            <h1 className="text-4xl lg:text-left ">Popocha</h1>
-            <p className=" text-slate-50 text-opacity-80">Gato Naranja</p>
-            <p className=" text-slate-50 text-sm text-opacity-50 pb-5 px-10 lg:px-0 lg:pb-0">Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-            Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-            Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
-            Empowering users throug captivating interfaces, turning ideas into pixel-perfect realities.
+        <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-slate-50 font-serif pr-10">
+            
+            <dl className="flex justify-between">
+                <h1 className="text-4xl lg:text-left ">Popocha </h1>
+                <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 2 años</h1>
+            </dl>
+            <p className=" text-slate-50 text-opacity-80">Retriever de pelo plano</p>
+            <p className=" text-slate-50 text-sm text-opacity-60 pb-5 px-10 lg:px-0 lg:pb-0 lg:text-left">
+                ¡Hola! Soy Popocha, una Retriever de pelo plano. Soy juguetona y, aunque a veces un poco torpe y brusca, ¡tengo mucha fuerza! Mi debilidad es el pollo, y siempre ando pendiente para ver si logro robarme un poquito de la cocina. Además, tengo mi pancita bien redonda, pero eso solo significa que soy muy feliz y bien alimentada.
             </p>
         </dl>
         </dl>
