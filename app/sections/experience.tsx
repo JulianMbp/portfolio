@@ -2,9 +2,6 @@
 import { HiAcademicCap } from "react-icons/hi2";
 import { MdWorkOutline } from "react-icons/md";
 import { PiStudentFill } from "react-icons/pi";
-
-
-import Link from 'next/link';
 import React from 'react';
 import { Tooltip } from 'react-tooltip';
 const experience = () => {
@@ -31,13 +28,14 @@ return (
                         {/* tooltip */}
                         {/* Estudios */}
                         {/* Titulo de Bachiller */}
-                        <dl className="mt-10 justify-center items-center">
+                        <dl className="mt-10 justify-center object-center items-center transition-all ">
                             <button
-                                className='bg-experiencie-600 text-white px-2 py-2 m-2 mt-4 rounded-md border-minecraft-border-900 border-2'
+                                className='bg-experiencie-600 flex justify-center items-center object-center flex-col hover:items-center hover:scale-150 hover:duration-500 hover:shadow-2xl transition-all active:scale-95 active:duration-200 text-white px-2 py-2 m-2 mt-4 rounded-md border-minecraft-border-900 border-2'
                                 data-tooltip-id='my-tooltip'
-                                data-tooltip-content='Bachiller Academico del Colegio Nuestra Señora de las Lajas'
+                                data-tooltip-content='Bachiller Academico'
                                 data-tooltip-place='top'>
-                                    <HiAcademicCap className="h-8 w-8"/>
+                                    <h1 className="font-[family-name:var(--font-kode-medium-mono)] hidden ">Bachiller Academico del Colegio <br /> Nuestra Señora de las Lajas</h1>
+                                    <HiAcademicCap className="h-8 w-8 "/>
                             </button>
                             {/* Titulo de Ingenieria de Software */}
                             <button
