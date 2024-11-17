@@ -10,7 +10,7 @@ import ButtonCyclist from '@/app/components/Button/ButtonCyclist';
 import ButtonCourses from '@/app/components/Button/ButtonCourses';
 const experience = () => {
 return (
-    <section id="experience" className="flex h-screen w-screen items-center justify-center">
+    <section id="experience" className="flex h-screen w-screen items-center justify-center mt-80 lg:mt-0">
         <section className=" w-[70%] border-b-4 border-r-4 border-slate-900 rounded-lg text-zinc-950">
             <section className="h-[100%] w-[100%] border-t-4 border-l-4 border-slate-200 rounded-lg">
                 <section className="h-[100%] w-[100%] border-[30px] border-minecraft-border-300 rounded-sm">

@@ -10,7 +10,8 @@ const ButtonPage: React.FC = () => {
     return(
       <section>
         <button
-        className='h-8 md:h-[45px] w-10 md:w-auto duration-300 flex items-center rounded-3xl p-3 bg-blue-500 gap-3 
+        className='h-8 md:h-[45px] w-10 md:w-auto duration-300 flex items-center rounded-3xl p-3
+          bg-blue-500 gap-3 
             shadow-xl hover:border-hidden hover:scale-110 active:scale-95 active:duration-200 
             hover:shadow-2xl transition-all'
         onClick={openModal}>

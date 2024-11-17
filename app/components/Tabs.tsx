@@ -2,7 +2,9 @@
 
 import { Tab } from '@headlessui/react';
 import React from 'react';
-import TabContent1 from "@/app/components/TabContent1";
+import TabContent1 from "@/app/components/Tabs/TabContentSocialWork";
+import TabContent2 from "@/app/components/Tabs/TabContentBooks";
+import TabContent3 from "@/app/components/Tabs/TabContentEps";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -10,9 +12,9 @@ function classNames(...classes: string[]) {
 
 const Tabs: React.FC = () => {
   const categories = {
-    'Trabajo Social': 'Contents of Tab 2',
-    'EPS': <TabContent1/>,
-    'Venta de Cursos': 'Contents of Tab 2',
+    'Trabajo Social': <TabContent1/>,
+    'EPS': <TabContent3/>,
+    'Venta de Cursos': <TabContent2/>,
     'Hackaton🏆': 'Contents of Tab 2',
   };
 
@@ -25,7 +27,7 @@ const Tabs: React.FC = () => {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full rounded-lg py-2.5 text-xl p-5 font-medium leading-5 text-slate-50',
+                  'w-full rounded-lg  text-3xl p-5  font-medium leading-5 text-slate-50',
                   'ring-red-950 ring-opacity-60 ring-offset-2 ring-offset-red-400 focus:outline-none focus:ring-2',
                   selected
                     ? 'bg-red-950 shadow'
