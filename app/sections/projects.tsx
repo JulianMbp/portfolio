@@ -20,7 +20,7 @@ return (
     <section id="projects" className="grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1  h-screen w-screen items-center justify-center object-center text-center">
         <section className=" text-white text-4xl font-[family-name:var(--font-kode-bold-mono)]">
             Tecnologias Aprendidas
-            <dl className="grid grid-cols-3 gap-3 m-10">
+            <dl className="grid grid-cols-4 md:grid-cols-3 gap-3 m-10 pl-5 md:ml-0">
                     <SiPostman className="order-3 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <SiSpringboot className="order-2 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <FaJava className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />

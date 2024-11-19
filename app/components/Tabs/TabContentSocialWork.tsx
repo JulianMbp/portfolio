@@ -5,6 +5,7 @@ import { TiHtml5 } from "react-icons/ti";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaPhp } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { SlSocialGithub } from "react-icons/sl";
 
 
 const TabCard = () => {
@@ -32,6 +33,14 @@ const TabCard = () => {
                     <IoLogoJavascript className="order-2 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <FaPhp className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <SiMysql className="order-5 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                </dl>
+                <dl className="flex justify-end items-end">
+                    <a href="https://github.com/JulianMbp/EPS_Front.git" className="bg-slate-200 flex gap-2 items-center  text-zinc-950 rounded-lg p-2 mt-5 hover:scale-110 active:scale-95 active:duration-200 
+                    hover:shadow-2xl transition-all">
+                        <SlSocialGithub className=" h-8 w-8 text-slate-950"/>
+                        <h1>Repositorio</h1>
+                    </a>
+                    
                 </dl>
             </dl>
             </dl>

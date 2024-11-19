@@ -3,7 +3,7 @@ import ButtonPage from "@/app/components/ButtonSmall";
 const Header = () => {
     return (
         <section className="flex flex-col md:items-center border">
-          <header className="gap-2 md:justify-between order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-7 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent border border-slate-100 rounded-3xl">
+          <header className="gap-2 md:justify-between order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-6 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent border border-slate-100 rounded-3xl">
                 {/* About Me */}
                   <a className=" order-1 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200 md:pl-2 flex gap-2 shadow-2xl  items-center h-5 w-5 md:h-auto md:w-auto" href="#about">
                     <svg className="  h-5 w-5 text-slate-100"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />  <circle cx="12" cy="7" r="4" /></svg>
@@ -35,12 +35,12 @@ const Header = () => {
                     <h2 className="text-slate-100 font-regular hidden md:block">Music</h2>
                   </a>
                   {/* Training */}
-                  <a className="order-7 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200 flex gap-2 shadow-2xl  items-center h-5 w-5 md:h-auto md:w-auto" href="#training">
+{/*                   <a className="order-7 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200 flex gap-2 shadow-2xl  items-center h-5 w-5 md:h-auto md:w-auto" href="#training">
                     <svg className="h-6 w-6 text-slate-100"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="8" r="7" />  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" /></svg>
                     <h2 className="text-slate-100 font-regular hidden md:block">Training</h2>
-                  </a>
+                  </a> */}
           </header>
-          <dl className="md:ml-[950px] md:mt-2 mt-[222px] fixed ml-2 ">
+          <dl className="md:ml-[830px] md:mt-2 mt-[200px] fixed ml-2 ">
             <ButtonPage/>
           </dl>
           

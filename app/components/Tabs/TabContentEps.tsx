@@ -8,7 +8,8 @@ import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaDocker } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-
+import Link from "next/link";
+import { SlSocialGithub } from "react-icons/sl";
 
 
 
@@ -38,6 +39,14 @@ const TabCard = () => {
                     <FaDocker className="order-5 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <DiPostgresql className="order-6 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <RiTailwindCssFill className="order-7 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                </dl>
+                <dl className="flex justify-end items-end">
+                    <a href="https://github.com/JulianMbp/EPS_Front.git" className="bg-slate-200 flex gap-2 items-center  text-zinc-950 rounded-lg p-2 mt-5 hover:scale-110 active:scale-95 active:duration-200 
+                    hover:shadow-2xl transition-all">
+                        <SlSocialGithub className=" h-8 w-8 text-slate-950"/>
+                        <h1>Repositorio</h1>
+                    </a>
+                    
                 </dl>
             </dl>
             </dl>

@@ -4,6 +4,7 @@ import { SiSpringboot } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
+import { SlSocialGithub } from "react-icons/sl";
 
 const TabBookCard = () => {
     return (
@@ -30,6 +31,14 @@ const TabBookCard = () => {
                     <SiSpringboot className="order-2 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <FaJava className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <BiLogoMongodb className="order-4 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                </dl>
+                <dl className="flex justify-end items-end">
+                    <a href="https://github.com/JulianMbp/EPS_Front.git" className="bg-slate-200 flex gap-2 items-center  text-zinc-950 rounded-lg p-2 mt-5 hover:scale-110 active:scale-95 active:duration-200 
+                    hover:shadow-2xl transition-all">
+                        <SlSocialGithub className=" h-8 w-8 text-slate-950"/>
+                        <h1>Repositorio</h1>
+                    </a>
+                    
                 </dl>
             </dl>
             </dl>
