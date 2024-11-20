@@ -25,10 +25,10 @@ export default function ThemeSwitch() {
     );
 
   if (resolvedTheme === 'dark') {
-    return <FiSun className='text-3xl' onClick={() => setTheme('light')} />;
+    return <FiSun className='text-3xl h-10 w-10 ' onClick={() => setTheme('light')} />;
   }
 
   if (resolvedTheme === 'light') {
-    return <FiMoon className='text-3xl' onClick={() => setTheme('dark')} />;
+    return <FiMoon className='text-3xl h-10 w-10' onClick={() => setTheme('dark')} />;
   }
 }

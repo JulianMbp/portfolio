@@ -1,11 +1,12 @@
 
 import ButtonPage from "@/app/components/ButtonSmall";
+import ThemeSwitch from "../components/ThemeSwitch";
 const Header = () => {
     return (
-        <section className="flex flex-col md:items-center border">
+        <section className="flex flex-col md:items-center border ">
           <header className="gap-2 md:justify-between order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-6 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent border border-slate-100 rounded-3xl">
                 {/* About Me */}
-                  <a className=" order-1 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200 md:pl-2 flex gap-2 shadow-2xl  items-center h-5 w-5 md:h-auto md:w-auto" href="#about">
+                  <a className="  order-1 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200 md:pl-2 flex gap-2 shadow-2xl  items-center h-5 w-5 md:h-auto md:w-auto" href="#about">
                     <svg className="  h-5 w-5 text-slate-100"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round">  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />  <circle cx="12" cy="7" r="4" /></svg>
                     <h2 className="text-slate-100 font-regular hidden md:block">About Me</h2>
                   </a>
@@ -43,7 +44,9 @@ const Header = () => {
           <dl className="md:ml-[830px] md:mt-2 mt-[200px] fixed ml-2 ">
             <ButtonPage/>
           </dl>
-          
+          <dl className="md:-ml-[830px] md:mt-2 mt-[250px] fixed ml-2 ">
+            <ThemeSwitch/>
+          </dl>
         </section>
     );
 }

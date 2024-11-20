@@ -2,8 +2,8 @@ import Image from "next/image";
 import ImageLife from "../img/life.jpg";
 const life = () => {
     return (
-        <section className="px-10 md:px-48 grid grid-cols-1 md:py-[300px]  md:grid-cols-[1fr_2fr] md:grid-rows-[0.75fr_0fr_1fr] 
-        grid-rows-[0.5fr_0.75fr] gap-x-5 mb-36" id="life">
+        <section className="px-10 md:px-48 grid grid-cols-1 md:py-[100px]  md:grid-cols-[1fr_2fr] md:grid-rows-[0.75fr_0fr_1fr] 
+        grid-rows-[0.5fr_0.75fr] gap-x-5" id="life">
             <div className="md:row-span-3 md:pb-10">
                 <Image className="object-cover rounded-full md:rounded-3xl h-[] md:h-[100%] md:w-[100%] shadow-2xl 
                 shadow-black" src={ImageLife} alt="" />

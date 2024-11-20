@@ -18,7 +18,7 @@ import { BiLogoMongodb } from "react-icons/bi";
 import { TbBrandReactNative } from "react-icons/tb";
 const projects = () => {
 return (
-    <section id="projects" className="grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1  h-screen w-screen items-center justify-center object-center text-center">
+    <section id="projects" className="mb-[300px] grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1  h-screen w-screen items-center justify-center object-center text-center">
         <section className=" text-white text-4xl font-[family-name:var(--font-kode-bold-mono)]">
             Tecnologias Aprendidas
             <dl className="grid grid-cols-4 md:grid-cols-3 gap-3 m-10 pl-5 md:ml-0">

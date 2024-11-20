@@ -8,11 +8,11 @@ import Pets from "./sections/pets";
 import Music from "./sections/music";
 import Training from "./sections/training";
 import Contact from "./sections/contact";
-
 import Footer from "./sections/footer";
 export default function Home() {
+
     return ( 
-        <main className='dark:text-gray-200 flex flex-col md:items-center
+        <main className='dark:text-gray-950 flex flex-col md:items-center
         bg-gradient-to-b from-[#4D0202] via-[#AA0A0A] to-[#CE0707]
         overflow-hidden inset-0 font-serif transition-all '>
         <Header />  

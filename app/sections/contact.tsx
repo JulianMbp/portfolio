@@ -1,6 +1,6 @@
 import { div } from "framer-motion/client"
 'use client';
-import Logo from "../img/Logo.svg"
+import Logo from "../../public/img/logo.png"
 import Image from "next/image"
 import Modal from '@/app/components/Modal';
 import Link from 'next/link';
