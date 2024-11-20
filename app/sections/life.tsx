@@ -22,7 +22,7 @@ const life = () => {
                     Durante la mayor parte de mi adolescencia y juventud fui ciclista profesional, compitiendo en todo el territorio colombiano
                     y también en el vecino país de Ecuador. Gracias a esto, he tenido la oportunidad de conocer casi toda Colombia y Ecuador. 
                     Además, soy entrenador deportivo nivel 3, certificado por entrenamientociclismo.com en España, y tengo mi propio equipo de 
-                    ciclismo, llamado "Promesas Nariño Tierra de Ciclistas".
+                    ciclismo, llamado Promesas Nariño Tierra de Ciclistas.
                 </p>
             </div>
             <div className="md:col-span-2 md:row-start-3 md:col-start-2 text-justify">            

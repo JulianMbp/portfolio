@@ -1,5 +1,5 @@
 import Image from "next/image"
-/* import Luna from "../../../public/img/pets/Luna.jpg"
+/* import Luna from "../../../public/img/pets/luna.jpg"
  */
 const lunaCard = () => {
     return (
@@ -9,7 +9,7 @@ const lunaCard = () => {
         md:transition-all md:ease-in md:delay-300 lg:transition-all lg:rounded-3xl
         h-[150px] w-[150px] sm:h-[250px] sm:w-[90%] -mt-10 
         lg:my-10 lg:-ml-10 lg:h-[280px] lg:w-[250px]  
-        object-cover md:object-top lg:object-cover shadow-2xl shadow-black" src={} alt="" /> */}
+        object-cover md:object-top lg:object-cover shadow-2xl shadow-black" src={Luna} alt="" /> */}
         <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-lunaColor-950 font-serif pr-10">
             <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center text-center md:justify-center md:items-center md:text-center lg:text-left">
                 <h1 className="text-4xl lg:text-left ">Luna🌙</h1>
