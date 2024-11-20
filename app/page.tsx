@@ -21,7 +21,7 @@ export default function Home() {
         <Projects />
         <Experience />
         <Life />
-        <Video />
+{/*         <Video /> */}
         <Pets />
         <Music />
         <Training />
