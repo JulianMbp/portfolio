@@ -1,3 +1,5 @@
+import YouTubeEmbed from "../components/YouTubeEmbed"
+
 const music = () => {
     return (
         <section id="music" className=" text-center md:w-[90%] items-center justify-center mb-10 flex flex-col mt-40">
@@ -9,7 +11,9 @@ const music = () => {
                 {/* Imagen de portada */}
                 <section className="order-1 items-center justify-center flex">
                     <dt className="border border-slate-50 w-[90%] md:w-[90%] h-[200px] md:h-[400px] mt-5">
-                        hola
+                    <div className='w-auto h-auto bg-cyan-200 '>
+                            <YouTubeEmbed videoId='l2ABZsKHl2Y?si=SqLXAjgMyo2wL9uT' />
+                    </div>
                     </dt>
                 </section>
                 {/* Cancion */}
