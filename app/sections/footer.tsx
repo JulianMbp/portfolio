@@ -1,16 +1,10 @@
-import { div, section } from "framer-motion/client"
 'use client';
-import Logo from "../img/Logo.svg"
-import Image from "next/image"
 import Modal from '@/app/components/Modal';
-import Link from 'next/link';
 import { useState } from 'react';
-import { SlSocialTwitter } from "react-icons/sl";
-import { SlSocialGithub } from "react-icons/sl";
-import { SlSocialLinkedin } from "react-icons/sl";
-import { SlSocialInstagram } from "react-icons/sl";
 import { FaFacebookSquare } from "react-icons/fa";
 import { MdAttachEmail } from "react-icons/md";
+import { SlSocialGithub, SlSocialInstagram, SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
+
 
 
 const Footer = () => {
@@ -47,7 +41,7 @@ const Footer = () => {
                 <SlSocialTwitter className="order-4 h-8 w-8 text-slate-100"/>
             </a>
         </dl>
-        <h1 className="flex gap-1">Made with<svg className="h-6 w-6 text-slate-100 animate-pulse "  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>        by Julian</h1>
+        <h1 className="flex gap-1">Made with<svg className="h-6 w-6 text-slate-100 animate-pulse "  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>        by Julian</h1>
         
         <ul className='flex text-center gap-5 py-4 text-sm'>
         <li >

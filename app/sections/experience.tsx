@@ -1,13 +1,12 @@
 'use client';
-import React from 'react';
-import { Tooltip } from 'react-tooltip';
-import ButtonExp  from '@/app/components/Button/ButtonExp';
-import ButtonExpUni from '@/app/components/Button/ButtonExpUni';
-import ButtonWorkUni from '@/app/components/Button/ButtonWorkUni';
 import ButtonCommAdv from '@/app/components/Button/ButtonCommAdv';
-import ButtonTraining from '@/app/components/Button/ButtonTraining';
-import ButtonCyclist from '@/app/components/Button/ButtonCyclist';
 import ButtonCourses from '@/app/components/Button/ButtonCourses';
+import ButtonCyclist from '@/app/components/Button/ButtonCyclist';
+import ButtonExp from '@/app/components/Button/ButtonExp';
+import ButtonExpUni from '@/app/components/Button/ButtonExpUni';
+import ButtonTraining from '@/app/components/Button/ButtonTraining';
+import ButtonWorkUni from '@/app/components/Button/ButtonWorkUni';
+import { Tooltip } from 'react-tooltip';
 const experience = () => {
 return (
     <section id="experience" className="flex h-screen w-screen items-center justify-center mt-[500px] lg:mt-[300px]">
@@ -26,7 +25,7 @@ return (
                                     -mt-7 h-6 w-40 border border-zinc-950 rounded-sm" 
                             href="https://drive.google.com/file/d/12j5U5CZJAC6yy3Mg0jEfXIMPy9fz3N3t/view?usp=drive_link">
                             <h1 className="font-[family-name:var(--font-kode-medium-mono)]">Descargar CV</h1>
-                            <svg className="animate-bounce h-5 w-5 text-zinc-950"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />  <polyline points="7 10 12 15 17 10" />  <line x1="12" y1="15" x2="12" y2="3" /></svg>
+                            <svg className="animate-bounce h-5 w-5 text-zinc-950"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round">  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />  <polyline points="7 10 12 15 17 10" />  <line x1="12" y1="15" x2="12" y2="3" /></svg>
                         </a>
                             {/* tooltip y modal */}
                             <div className="flex flex-col justify-center items-center ">
