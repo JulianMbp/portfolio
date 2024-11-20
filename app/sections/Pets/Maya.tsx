@@ -16,7 +16,7 @@ const mayaCard = () => {
             <h1 className="text-4xl lg:text-left text-slate-50">Maya🌞</h1>
                 <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 13 años</h1>
             </dl>
-            <p className="text-slate-50 text-opacity-80">Labrador Mestiza</p>
+            <p className="text-slate-50 text-opacity-80">Mestiza</p>
             <p className="text-slate-50  text-sm text-opacity-50 pb-5 px-10 lg:px-0 lg:pb-0 lg:text-left">
                 ¡Hola! Soy Maya, una perrita mestiza de aspecto robusto y amigable, con un poquito de Labrador o Retriever en mi sangre. Soy juguetona y alegre, aunque, si soy sincera, ¡también soy perezosa y dormilona! Mi lugar favorito es mi sillón o mi cama, donde me encanta echarme a disfrutar del sueño. Soy la consentida de papá, y me encanta comer, especialmente pollito. Ya soy viejita, llena de sabiduría, y he vivido toda mi vida en esta casa, donde recibo a los visitantes con mi encanto especial.
             </p>

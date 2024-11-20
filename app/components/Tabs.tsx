@@ -5,6 +5,7 @@ import React from 'react';
 import TabContent1 from "@/app/components/Tabs/TabContentSocialWork";
 import TabContent2 from "@/app/components/Tabs/TabContentBooks";
 import TabContent3 from "@/app/components/Tabs/TabContentEps";
+import TabContent4 from "@/app/components/Tabs/TabContentHackaton";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -15,13 +16,13 @@ const Tabs: React.FC = () => {
     'Trabajo Social': <TabContent1/>,
     'EPS': <TabContent3/>,
     'Venta de Cursos': <TabContent2/>,
-    'Hackaton🏆': 'Contents of Tab 2',
+    'Hackaton🏆': <TabContent4/>,
   };
 
   return (
     <div className='w-full max-w-6xl px-2 py-16 sm:px-0 mx-auto'>
       <Tab.Group>
-        <Tab.List className='flex space-x-1 rounded-xl bg-blue-900/20 p-1'>
+        <Tab.List className='md:flex grid grid-cols-1 space-x-1 rounded-xl bg-blue-900/20 p-1'>
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}

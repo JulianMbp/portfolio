@@ -15,7 +15,7 @@ const lunaCard = () => {
                 <h1 className="text-4xl lg:text-left ">Luna🌙</h1>
                 <h1 className="text-2xl  text-brunoColor-950 text-opacity-80">Edad: 16 años</h1>
             </dl>
-            <p className=" text-lunaColor-950  text-opacity-80">West highland White terrier</p>
+            <p className=" text-lunaColor-950  text-opacity-80">Cruce de West highland White terrier con Puddle</p>
             <p className="text-lunaColor-900 text-sm text-opacity-60 pb-5 px-10 lg:px-0 lg:pb-0 lg:text-left">
             ¡Hola! Soy Luna, una perrita mestiza de color blanco, con orejas paradas y un corazón lleno de amor. Aunque duermo la mayor parte del día, cuando estoy despierta me encanta disfrutar de galletas de avena, concentrado del más fino y, por supuesto, tostadas y gomas para perro. Soy la alfa de la manada y la consentida de mi mamá (pero eso queda entre nosotros). Vivir con mi familia ha sido una aventura maravillosa, y me encanta recibir caricias, ¡especialmente cuando me miman mucho!
             </p>

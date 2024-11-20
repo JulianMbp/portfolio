@@ -4,7 +4,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { TiHtml5 } from "react-icons/ti";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaPhp } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
+import { SiExpo, SiFirebase, SiMysql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { DiPostgresql } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
@@ -15,6 +15,7 @@ import { SiSpringboot } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
+import { TbBrandReactNative } from "react-icons/tb";
 const projects = () => {
 return (
     <section id="projects" className="grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1  h-screen w-screen items-center justify-center object-center text-center">
@@ -34,8 +35,11 @@ return (
                     <FaBootstrap className="order-4 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <TiHtml5 className="order-3 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <IoLogoJavascript className="order-2 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                    <SiMysql className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <FaPhp className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
-                    <SiMysql className="order-5 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                    <SiExpo className="order-4 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                    <TbBrandReactNative  className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                    <SiFirebase className="order-6 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                 </dl>
         </section>
         <dl className="lg:col-span-3 md:col-span-2 ">
@@ -58,6 +62,9 @@ return (
                     <IoLogoJavascript className="order-2 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <FaPhp className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <SiMysql className="order-5 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                    <SiExpo className="order-4 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                    <TbBrandReactNative  className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                    <SiFirebase className="order-6 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                 </dl>
         </section>
     </section>

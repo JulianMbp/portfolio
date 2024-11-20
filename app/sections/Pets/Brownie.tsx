@@ -15,9 +15,9 @@ const BrownieCard = () => {
             
             <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center text-center md:justify-center md:items-center md:text-center lg:text-left">
                 <h1 className="text-4xl lg:text-left ">Brownie🍫</h1>
-                <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 2 años</h1>
+                <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 3 años</h1>
             </dl>
-            <p className=" text-brownieColor-100 text-opacity-80">Doberman Mestiza</p>
+            <p className=" text-brownieColor-100 text-opacity-80">Mestiza</p>
             <p className=" text-brownieColor-100 text-sm text-opacity-60 pb-5 px-10 lg:px-0 lg:pb-0 lg:text-left">
                 ¡Hola! Soy Brownie, una perra mestiza con un toque especial que me hace única. Dicen que tengo algo de Pastor y quizá un poquito de Rottweiler o Doberman, pero, sobre todo, soy yo misma: fuerte, seria y protectora. En la parte baja de la casa soy la alfa; me encargo de cuidar el territorio y mantener todo en orden. Aun así, me encanta jugar y hacer trucos (¡soy muy lista!) y disfruto de las caricias. Eso sí, soy bastante celosa y posesiva con los míos; nada se escapa de mi vigilancia.
             </p>

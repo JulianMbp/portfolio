@@ -17,9 +17,9 @@ const SamyCard = () => {
                 <h1 className="text-4xl lg:text-left ">🪽Samy🪽</h1>
                 <h1 className="text-2xl  text-luanColor-50 text-opacity-80">Edad: 16 años</h1>
             </dl>
-                <p className=" text-lunaColor-950 text-opacity-80">Bichón Frisé</p>
+                <p className=" text-lunaColor-950 text-opacity-80">Puddle</p>
                 <p className=" text-lunaColor-950 text-sm text-opacity-60 mb-10 px-10 lg:px-0 lg:pb-0 lg:text-left">
-                    Samy fue una pequeña Bichón Frisé, una perrita alegre, juguetona y llena de felicidad que dejó una huella profunda en el corazón de su familia. Siempre fue muy querida por todos, aunque también tenía su carácter bravo, que la hacía única. Amaba su caja, el pollito, y su comida húmeda en lata, pequeños placeres que disfrutaba con entusiasmo.
+                    Samy fue una pequeña Puddle, una perrita alegre, juguetona y llena de felicidad que dejó una huella profunda en el corazón de su familia. Siempre fue muy querida por todos, aunque también tenía su carácter bravo, que la hacía única. Amaba su caja, el pollito, y su comida húmeda en lata, pequeños placeres que disfrutaba con entusiasmo.
         <br />
         <br />
 El 12 de junio de 2024, Samy partió, dejando hermosos recuerdos y el amor que compartió con su mamá. Hasta el último momento, Samy estuvo a su lado, queriéndola y haciéndola feliz. Su amor incondicional y leal será recordado siempre con mucho cariño.

@@ -14,11 +14,11 @@ const PopochaCard = () => {
             
             <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center text-center md:justify-center md:items-center md:text-center lg:text-left">
                 <h1 className="text-4xl lg:text-left ">Popocha🐾</h1>
-                <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 2 años</h1>
+                <h1 className="text-2xl  text-slate-50 text-opacity-80">Edad: 3 años</h1>
             </dl>
-            <p className=" text-slate-50 text-opacity-80">Retriever de pelo plano</p>
+            <p className=" text-slate-50 text-opacity-80">Mestiza</p>
             <p className=" text-slate-50 text-sm text-opacity-60 pb-5 px-10 lg:px-0 lg:pb-0 lg:text-left">
-                ¡Hola! Soy Popocha, una Retriever de pelo plano. Soy juguetona y, aunque a veces un poco torpe y brusca, ¡tengo mucha fuerza! Mi debilidad es el pollo, y siempre ando pendiente para ver si logro robarme un poquito de la cocina. Además, tengo mi pancita bien redonda, pero eso solo significa que soy muy feliz y bien alimentada.
+                ¡Hola! Soy Popocha, una Mestiza. Soy juguetona y, aunque a veces un poco torpe y brusca, ¡tengo mucha fuerza! Mi debilidad es el pollo, y siempre ando pendiente para ver si logro robarme un poquito de la cocina. Además, tengo mi pancita bien redonda, pero eso solo significa que soy muy feliz y bien alimentada.
             </p>
         </dl>
         </dl>

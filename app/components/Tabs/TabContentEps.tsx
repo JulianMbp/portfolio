@@ -1,4 +1,4 @@
-import Tab from "../../../public/img/Tabs/AppFilipense.png"; /* Cambiar cuando se tenga el front */
+import Tab from "../../../public/img/Tabs/EPS.png"; 
 import Image from "next/image"
 
 import { IoLogoJavascript } from "react-icons/io5";
@@ -25,7 +25,7 @@ const TabCard = () => {
             <dl className="p-10 order-1 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-brownieColor-100 font-serif pl-10">
                 <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center 
                 text-center md:justify-center md:items-center md:text-center lg:text-left">
-                    <h1 className="text-4xl lg:text-left ">App Gestion para gestion para una EPS</h1>
+                    <h1 className="text-4xl lg:text-left ">App para gestion de una EPS</h1>
                 </dl>
                 <p className=" text-brownieColor-100 text-opacity-80">Desarrollar un aplicativo web, JavaScript, React, Next.js, PostgreSQL, Docker, node.js, y Tailwind </p>
                 <p className=" text-brownieColor-100 text-opacity-80">Diseñar Base de datos.<br />
