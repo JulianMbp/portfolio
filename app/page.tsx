@@ -12,8 +12,8 @@ import Footer from "./sections/footer";
 export default function Home() {
 
     return ( 
-        <main className='dark:text-gray-950 flex flex-col md:items-center
-        bg-gradient-to-b from-[#4D0202] via-[#AA0A0A] to-[#CE0707]
+        <main className='dark:text-slate-50 flex flex-col md:items-center text-slate-950
+        dark:bg-gradient-to-b dark:from-[#4D0202] dark:via-[#AA0A0A] dark:to-[#CE0707] bg-[#e42b2b]
         overflow-hidden inset-0 font-serif transition-all '>
         <Header />  
         <Contact />      
@@ -21,7 +21,7 @@ export default function Home() {
         <Projects />
         <Experience />
         <Life />
-{/*         <Video /> */}
+        <Video />
         <Pets />
         <Music />
         <Training />

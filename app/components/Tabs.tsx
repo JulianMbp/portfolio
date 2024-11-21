@@ -28,11 +28,11 @@ const Tabs: React.FC = () => {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full rounded-lg  text-3xl p-5  font-medium leading-5 text-slate-50',
+                  'w-full rounded-lg  text-2xl p-5  font-medium leading-5 dark:text-slate-50',
                   'ring-red-950 ring-opacity-60 ring-offset-2 ring-offset-red-400 focus:outline-none focus:ring-2',
                   selected
-                    ? 'bg-red-950 shadow'
-                    : 'text-white hover:bg-white/[0.12] hover:text-white'
+                    ? 'dark:bg-red-950 bg-red-600 shadow'
+                    : 'dark:text-white hover:bg-white/[0.12] dark:hover:text-white'
                 )
               }
             >

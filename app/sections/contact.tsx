@@ -18,8 +18,8 @@ const ModalPage: React.FC = () => {
             {/* Logo */}
             <Image className="w-44 md:w-64 object-cover md:object-cover" src={Logo} alt="" />
             {/* Nombre */}
-            <h1 className=" cols-span-1 text-slate-50 font-medium text-5xl text-center text-nowrap ">Julian_MBP.dev</h1>
-            <h1 className=" -mt-5 cols-span-1 text-slate-50 font-medium text-2xl opacity-60 text-center text-nowrap ">Software Engineer</h1>
+            <h1 className=" cols-span-1 dark:text-slate-50 font-medium text-5xl text-center text-nowrap ">Julian_MBP.dev</h1>
+            <h1 className=" -mt-5 cols-span-1 dark:text-slate-50 font-medium text-2xl opacity-60 text-center text-nowrap ">Software Engineer</h1>
 
             {/* Boton contacto */}
             <ButtonPage/>
