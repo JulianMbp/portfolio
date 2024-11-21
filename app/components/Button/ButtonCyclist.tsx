@@ -34,54 +34,56 @@ const ModExp: React.FC = () => {
           {/* Equipos */}
           <dl>        
               <p className="font-semibold  text-xl text-cyan-500 mt-2">Equipos</p>
-              <p className="text-zinc-50 dark:text-zinc-950 text-left">Trocha y Ruta </p>
-              <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">(Aldana) </p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left">Trocha y Ruta </p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left opacity-70 -mt-1">(Aldana) </p>
               <p className="text-cyan-600 text-left opacity-70 -mt-1">2017</p>
 
-              <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3">Seleccion Nariño</p>
-              <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">(Nariño - Colombia) </p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left mt-3">Seleccion Nariño</p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left opacity-70 -mt-1">(Nariño - Colombia) </p>
               <p className="text-cyan-600 text-left opacity-70 -mt-1">2017 - 2023 </p>
               
-              <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3">Rb+ - Saitel</p>
-              <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">(Ecuador) </p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left mt-3">Rb+ - Saitel</p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left opacity-70 -mt-1">(Ecuador) </p>
               <p className="text-cyan-600 text-left opacity-70 -mt-1">2018-2019 </p>
 
-              <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3">Nariño Tierra de Ciclistas</p>
-              <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">(Nariño - Colombia) </p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left mt-3">Nariño Tierra de Ciclistas</p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left opacity-70 -mt-1">(Nariño - Colombia) </p>
               <p className="text-cyan-600 text-left opacity-70 -mt-1">2021 - 2024</p>
 
-              <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3">Seleccion Nariño Juegos Nacionales 2023</p>
-              <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">(Colombia)</p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left mt-3">Seleccion Nariño Juegos Nacionales 2023</p>
+              <p className="text-zinc-950 dark:text-zinc-50 text-left opacity-70 -mt-1">(Colombia)</p>
               <p className="text-cyan-600 text-left opacity-70 -mt-1">2023</p>
           </dl>
           {/* Palmares */}
         <dl>        
           <p className="font-semibold  text-xl text-cyan-500 mt-2">Palmares</p>
-          <p className="text-zinc-50 dark:text-zinc-950 text-left"> 1ro Clasica Nuestra señora de los milagros </p>
-          <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">Guatarilla - Nariño </p>
+          <p className="text-zinc-950 text-left "> 1ro Clasica Nuestra señora de los milagros </p>
+          <p className="text-zinc-950 text-left opacity-70 -mt-1">Guatarilla - Nariño </p>
           <p className="text-cyan-600 text-left opacity-70 -mt-1">2019</p>
           
-          <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3">1ro Campeonato de Escuelas de Ciclismo</p>
-          <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1"> Nariño </p>
+          <p className="text-zinc-950 text-left mt-3">1ro Campeonato de Escuelas de Ciclismo</p>
+          <p className="text-zinc-950 text-left opacity-70 -mt-1"> Nariño </p>
           <p className="text-cyan-600 text-left opacity-70 -mt-1">2019</p>
 
-          <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3">1ro Clasica Nuestra señora de los milagros </p>
-          <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">Gualmatan Nariño</p>
+          <p className="text-zinc-950 text-left mt-3">1ro Clasica Nuestra señora de los milagros </p>
+          <p className="text-zinc-950 text-left opacity-70 -mt-1">Gualmatan Nariño</p>
           <p className="text-cyan-600 text-left opacity-70 -mt-1">2020</p>
           
-          <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3">1ro Contrareloj Chequeos Campeonatos Nacionales</p>
-          <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">Nariño </p>
+          <p className="text-zinc-950 text-left mt-3">1ro Contrareloj Chequeos Campeonatos Nacionales</p>
+          <p className="text-zinc-950 text-left opacity-70 -mt-1">Nariño </p>
           <p className="text-cyan-600 text-left opacity-70 -mt-1">2021 </p>
 
-          <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3 ">5to Etapa 5 Vuelta del Porvenir</p>
-          <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">Nariño </p>
+          <p className="text-zinc-950 text-left mt-3">5to Etapa 5 Vuelta del Porvenir</p>
+          <p className="text-zinc-950 text-left opacity-70 -mt-1">Nariño </p>
           <p className="text-cyan-600 text-left opacity-70 -mt-1">2021 </p>
 
-          <p className="text-zinc-50 dark:text-zinc-950 text-left mt-3">1ro Contrareloj Chequeos Campeonatos Nacionales</p>
-          <p className="text-zinc-50 dark:text-zinc-950 text-left opacity-70 -mt-1">Nariño </p>
+          <p className="text-zinc-950 text-left mt-3">1ro Contrareloj Chequeos Campeonatos Nacionales</p>
+          <p className="text-zinc-950 text-left opacity-70 -mt-1">Nariño </p>
           <p className="text-cyan-600 text-left opacity-70 -mt-1">2021 </p>
+
         </dl>
         </dl>
+
       </ModalExp>
       </section>
     );
