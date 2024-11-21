@@ -18,10 +18,10 @@ const TabBookCard = () => {
             <dl className="p-10 order-1 lg:w-[70%] pl-10 text-center lg:text-left flex flex-col justify-center text-brownieColor-100 font-serif ">
                 <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center 
                 text-center md:justify-center md:items-center md:text-center lg:text-left">
-                    <h1 className="text-4xl lg:text-left ">Backend para Gestion de venta de libros</h1>
+                    <h1 className="text-4xl lg:text-left ">Backend para Gestion de venta de Cursos</h1>
                 </dl>
-                <p className=" text-brownieColor-100 text-opacity-80">Desarrollar un backend con Java y SpringBoot para gestionar la venta de libros.</p>
-                <p className=" text-brownieColor-100 text-opacity-80">CRUD para gestionar la venta de libros.</p>
+                <p className=" text-brownieColor-100 text-opacity-80">Desarrollar un backend con Java y SpringBoot para gestionar la venta de cursos.</p>
+                <p className=" text-brownieColor-100 text-opacity-80">CRUD para gestionar la venta de Cursos.</p>
                 <p className=" text-brownieColor-100 text-opacity-80">Base de datos noSQL, MongoDB <br />
                 Gestions de perfiles de usuarios. <br />
                 Estudiantes y profesor
