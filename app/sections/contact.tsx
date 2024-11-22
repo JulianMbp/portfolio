@@ -68,7 +68,7 @@ const ModalPage: React.FC = () => {
         </motion.h1>
         <motion.h1 
           variants={itemAnimation}
-          className="-mt-5 cols-span-1 dark:text-slate-50 font-medium text-2xl opacity-60 text-center text-nowrap"
+          className="-mt-5 cols-span-1 dark:text-slate-50 font-medium text-2xl text-opacity-70 text-center text-nowrap"
         >
           Software Engineer
         </motion.h1>
