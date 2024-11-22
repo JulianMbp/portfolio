@@ -28,7 +28,9 @@ export default function Home() {
         <Projects />
         <Experience />
         <Life />
-        <Video />
+        <div className="flex justify-center items-center h-full w-full">
+          <Video />
+        </div>
         <Pets />
         <Music />
         <Training />

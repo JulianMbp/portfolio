@@ -21,10 +21,10 @@ const ButtonPage: React.FC = () => {
       <br />
       <Modal isOpen={isModalOpen} onClose={closeModal} title="Software Engineer" >
         <p className="font-semibold text-lg text-cyan-500">Numero de Contacto</p>
-        <p className="text-zinc-950">315-242-74-21</p>
+        <p className="text-zinc-950 dark:text-slate-50">315-242-74-21</p>
         <p className="font-semibold  text-lg text-cyan-500">Correo Electronico</p>
         <dl className="flex items-center justify-between">
-          <p className="text-zinc-950">julian.bastidasmp@gmail.com</p>
+          <p className="text-zinc-950 dark:text-slate-50">julian.bastidasmp@gmail.com</p>
           <a className="duration-300 text-slate-50 flex items-center rounded-3xl p-3 bg-blue-500 gap-3 
                     shadow-xl hover:border-hidden hover:scale-110 active:scale-95 active:duration-200 
                     hover:shadow-2xl transition-all" href="mailto:julian.bastidasmp@gmail.com">Escribir Correo</a>
