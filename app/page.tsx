@@ -27,10 +27,10 @@ export default function Home() {
         <AboutMe />
         <Projects />
         <Experience />
-        <Life />
         <div className="flex justify-center items-center h-full w-full">
           <Video />
         </div>
+        <Life />
         <Pets />
         <Music />
         <Training />
