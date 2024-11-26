@@ -39,15 +39,15 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
               leaveFrom='opacity-100 scale-100'
               leaveTo='opacity-0 scale-95'
             >
-              <Dialog.Panel className='w-full max-w-md transform overflow-hidden rounded-2xl dark:bg-zinc-950 bg-white p-6 text-left align-middle shadow-xl transition-all'>
+              <Dialog.Panel className='w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all'>
                 <Dialog.Title
                   as='h3'
                   className='text-lg font-medium leading-6 flex items-center gap-1 text-gray-900'
                 >
                   <Image className="w-20 h-20 object-cover rounded-full " src={Logo} alt="" />
                   <dl className=''>
-                    <p className='text-xl text-zinc-950 dark:text-zinc-50'>Julian M. Bastidas Perez </p>
-                    <p className='text-lg opacity-60 text-zinc-950 dark:text-zinc-50 '>{title}</p>
+                    <p className='text-xl text-zinc-950 '>Julian M. Bastidas Perez </p>
+                    <p className='text-lg opacity-60 text-zinc-950  '>{title}</p>
                   </dl>
                 </Dialog.Title>
                 <div className='mt-4'>{children}</div>

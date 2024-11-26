@@ -49,7 +49,7 @@ const Life = () => {
                 variants={itemAnimation}
                 className="md:float-left"
             >
-                <h1 className="md:row-span-2 text-center md:text-left order-1 md:order-2 font-extrabold text-8xl md:text-[10rem] text-slate-950 dark:text-zinc-50">
+                <h1 className="md:row-span-2 text-center md:text-left order-1 md:order-2 font-extrabold text-8xl md:text-[10rem]  text-zinc-50">
                     Story of my Life
                 </h1>
             </motion.div>
@@ -58,7 +58,7 @@ const Life = () => {
                 variants={itemAnimation}
                 className="md:col-start-2 text-justify"
             >
-                <p className="font-extralight text-3xl dark:text-zinc-50 order-3 md:order-3 md:col-start-2 md:pt-0">
+                <p className="font-extralight text-3xl text-zinc-50 order-3 md:order-3 md:col-start-2 md:pt-0">
                     Nací el 9 de septiembre de 2003 en la ciudad de Ipiales, Nariño. Desde muy pequeño siempre me gustaron los deportes, 
                     y a los 4 años ya había aprendido a andar en bicicleta. Aunque mis padres siempre estuvieron para mí, me crié más con 
                     mis abuelos maternos. Soy hijo único.
@@ -73,7 +73,7 @@ const Life = () => {
                 variants={itemAnimation}
                 className="md:col-span-2 md:row-start-3 md:col-start-2 text-justify"
             >            
-                <p className="font-extralight text-3xl dark:text-zinc-50 order-4 md:order-4 md:col-span-2 md:pt-0">
+                <p className="font-extralight text-3xl text-zinc-50 order-4 md:order-4 md:col-span-2 md:pt-0">
                     La música siempre ha sido otra de mis pasiones. Aprendí a tocar la guitarra, formé parte del coro de mi colegio, 
                     y durante mi juventud escribí algunas canciones. Me encanta pasar tiempo con mis amigos, bailar y cantar.
                     Actualmente, estoy homologando mi carrera de Ingeniería de Software. Comencé mis estudios de manera virtual en la 

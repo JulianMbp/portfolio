@@ -5,22 +5,19 @@ import Experience from "./sections/experience";
 import Life from "./sections/life";
 import Video from "./sections/video";
 import Pets from "./sections/pets";
-import Music from "./sections/music";
-import Training from "./sections/training";
 import Contact from "./sections/contact";
 import Footer from "./sections/footer";
-import Head from "next/head";
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
-  title: 'Portfolio de Julian',
+  title: 'Portfolio de Julian B',
 }
 export default function Home() {
 
     return ( 
         
-        <main className='dark:text-slate-50 flex flex-col md:items-center text-slate-950
-        dark:bg-gradient-to-b dark:from-[#4D0202] dark:via-[#AA0A0A] dark:to-[#CE0707] bg-[#e42b2b]
+        <main className='text-slate-50 flex flex-col md:items-center 
+        bg-gradient-to-b from-[#4D0202] via-[#AA0A0A] to-[#CE0707] 
         overflow-hidden inset-0 font-serif transition-all '>
         <Header />  
         <Contact />      
@@ -32,8 +29,6 @@ export default function Home() {
         </div>
         <Life />
         <Pets />
-        <Music />
-        <Training />
         <Footer />
         </main>
     );}

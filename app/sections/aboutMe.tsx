@@ -11,7 +11,7 @@ const aboutMe = () => {
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    className='font-extrabold from-content2-foreground text-8xl md:text-9xl md:order-1 h-[80%] order-1 dark:text-slate-50 text-center md:text-left col-span-2 md:col-span-1'>
+                    className='font-extrabold from-content2-foreground text-8xl md:text-9xl md:order-1 h-[80%] order-1 text-slate-50 text-center md:text-left col-span-2 md:col-span-1'>
                     About Me
                 </motion.h1>
                 
@@ -19,7 +19,7 @@ const aboutMe = () => {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="text-3xl order-3 md:order-3 dark:text-slate-50 col-span-2 md:col-span-1">
+                    className="text-3xl order-3 md:order-3 text-slate-50 col-span-2 md:col-span-1">
                     ¡Hola! 👋 <br />
                     Soy Julián M. Bastidas Pérez, ingeniero de software en formación 🧑‍💻.
                     Me encanta crear cosas innovadoras y llevar ideas al siguiente nivel 🚀.

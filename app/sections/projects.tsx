@@ -61,9 +61,9 @@ const Projects = () => {
             id="projects" 
             className="mb-[300px] mt-[80%] md:mt-0 grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1 h-screen w-screen items-center justify-center object-center text-center"
         >
-            <motion.section variants={itemAnimation} className="dark:text-white text-4xl font-[family-name:var(--font-kode-bold-mono)]">
+            <motion.section variants={itemAnimation} className="text-white text-4xl font-[family-name:var(--font-kode-bold-mono)]">
                 Tecnologias Aprendidas
-                <motion.dl variants={containerAnimation} className="grid grid-cols-4 md:grid-cols-3 dark:text-white text-slate-950 gap-3 m-10 pl-5 md:ml-0">
+                <motion.dl variants={containerAnimation} className="grid grid-cols-4 md:grid-cols-3 text-white  gap-3 m-10 pl-5 md:ml-0">
                     <IconWrapper><SiPostman /></IconWrapper>
                     <IconWrapper><SiSpringboot /></IconWrapper>
                     <IconWrapper><FaJava /></IconWrapper>
@@ -89,9 +89,9 @@ const Projects = () => {
                 <Tabs/>
             </motion.dl>
 
-            <motion.section variants={itemAnimation} className="dark:text-white text-4xl font-[family-name:var(--font-kode-bold-mono)] lg:block hidden">
+            <motion.section variants={itemAnimation} className="text-white text-4xl font-[family-name:var(--font-kode-bold-mono)] lg:block hidden">
                 Tecnologias Aprendidas
-                <motion.dl variants={containerAnimation} className="grid grid-cols-3 dark:text-white text-slate-950 gap-3 m-10">
+                <motion.dl variants={containerAnimation} className="grid grid-cols-3 text-white  gap-3 m-10">
                     <IconWrapper><SiPostman /></IconWrapper>
                     <IconWrapper><SiSpringboot /></IconWrapper>
                     <IconWrapper><FaJava /></IconWrapper>

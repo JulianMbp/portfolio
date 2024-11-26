@@ -48,7 +48,7 @@ const Experience = () => {
             viewport={{ once: true }}
             variants={containerAnimation}
             id="experience" 
-            className="flex h-screen w-screen items-center justify-center mt-[200%] lg:mt-[300px]"
+            className="flex h-screen w-screen items-center justify-center mt-[150%] lg:mt-0"
         >
             <motion.section 
                 variants={borderAnimation}
