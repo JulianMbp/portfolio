@@ -10,6 +10,14 @@ import { DiPostgresql } from "react-icons/di";
 import { BiLogoMongodb } from "react-icons/bi";
 import { TbBrandReactNative } from "react-icons/tb";
 import { motion } from "framer-motion";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiAxios } from "react-icons/si";
+import { SiMicrosoftazure } from "react-icons/si";
+import { SiGooglecloud } from "react-icons/si";
+import { FaAndroid } from "react-icons/fa";
+import { FaVuejs } from "react-icons/fa";
+import { TbBrandOffice } from "react-icons/tb";
 
 const Projects = () => {
     const containerAnimation = {
@@ -59,11 +67,11 @@ const Projects = () => {
             viewport={{ once: true }}
             variants={containerAnimation}
             id="projects" 
-            className="mb-[300px] mt-[80%] md:mt-0 grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1 h-screen w-screen items-center justify-center object-center text-center"
+            className="mb-[300px] mt-[80%] md:mt-0 grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1 h-screen w-screen items-center justify-center object-center text-center p-12"
         >
-            <motion.section variants={itemAnimation} className="text-white text-4xl font-[family-name:var(--font-kode-bold-mono)]">
+            <motion.section variants={itemAnimation} className="text-white text-4xl font-[family-name:var(--font-kode-bold-mono)] justify-center items-center text-center">
                 Tecnologias Aprendidas
-                <motion.dl variants={containerAnimation} className="grid grid-cols-4 md:grid-cols-3 text-white  gap-3 m-10 pl-5 md:ml-0">
+                <motion.dl variants={containerAnimation} className="grid grid-cols-4 md:grid-cols-5 text-white  gap-3 m-10 md:m-3">
                     <IconWrapper><SiPostman /></IconWrapper>
                     <IconWrapper><SiSpringboot /></IconWrapper>
                     <IconWrapper><FaJava /></IconWrapper>
@@ -82,6 +90,14 @@ const Projects = () => {
                     <IconWrapper><SiExpo /></IconWrapper>
                     <IconWrapper><TbBrandReactNative /></IconWrapper>
                     <IconWrapper><SiFirebase /></IconWrapper>
+                    <IconWrapper><FaAndroid /></IconWrapper>
+                    <IconWrapper><FaVuejs /></IconWrapper>
+                    <IconWrapper><TbBrandOffice /></IconWrapper>
+                    <IconWrapper><SiMicrosoftazure /></IconWrapper>
+                    <IconWrapper><SiGooglecloud /></IconWrapper>
+                    <IconWrapper><FaGitAlt /></IconWrapper>
+                    <IconWrapper><FaGithub /></IconWrapper>
+                    <IconWrapper><SiAxios /></IconWrapper>
                 </motion.dl>
             </motion.section>
 
@@ -91,7 +107,7 @@ const Projects = () => {
 
             <motion.section variants={itemAnimation} className="text-white text-4xl font-[family-name:var(--font-kode-bold-mono)] lg:block hidden">
                 Tecnologias Aprendidas
-                <motion.dl variants={containerAnimation} className="grid grid-cols-3 text-white  gap-3 m-10">
+                <motion.dl variants={containerAnimation} className="grid grid-cols-5 text-white  gap-3 m-10 md:m-3">
                     <IconWrapper><SiPostman /></IconWrapper>
                     <IconWrapper><SiSpringboot /></IconWrapper>
                     <IconWrapper><FaJava /></IconWrapper>
@@ -110,6 +126,14 @@ const Projects = () => {
                     <IconWrapper><SiExpo /></IconWrapper>
                     <IconWrapper><TbBrandReactNative /></IconWrapper>
                     <IconWrapper><SiFirebase /></IconWrapper>
+                    <IconWrapper><FaAndroid /></IconWrapper>
+                    <IconWrapper><FaVuejs /></IconWrapper>
+                    <IconWrapper><TbBrandOffice /></IconWrapper>
+                    <IconWrapper><SiMicrosoftazure /></IconWrapper>
+                    <IconWrapper><SiGooglecloud /></IconWrapper>
+                    <IconWrapper><FaGitAlt /></IconWrapper>
+                    <IconWrapper><FaGithub /></IconWrapper>
+                    <IconWrapper><SiAxios /></IconWrapper>
                 </motion.dl>
             </motion.section>
         </motion.section>

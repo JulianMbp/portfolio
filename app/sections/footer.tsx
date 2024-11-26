@@ -12,7 +12,7 @@ const Footer = () => {
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
     return (
-    <footer className='justify-items-end bg-gradient-to-t from-[#4D0202] via-[#AA0A0A] to-[#CE0707]   flex flex-col text-white items-center justify-center border-t-2 border-slate-50 border-opacity-50 w-screen py-2 overflow-hidden'>
+    <footer className='justify-items-end bg-gradient-to-t from-[#4D0202] via-[#AA0A0A] to-[#CE0707]   flex flex-col text-white items-center justify-center border-t-2 border-slate-50 border-opacity-80 w-screen py-2 overflow-hidden'>
         Copyright &copy; 2024
 
         <dl className="flex gap-3 mb-5 mt-5">

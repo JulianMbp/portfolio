@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 const aboutMe = () => {
     return (
         <section className="px-10 md:px-48 my-[10%] items-center justify-center" id='about'>
-            <section className="grid grid-cols-1 md:grid-cols-2 grid-rows-[0fr_1fr] md:gap-x-10" >
+            <section className="grid grid-cols-1 md:grid-cols-2 grid-rows-[0fr_1fr] md:gap-x-10 sm:gap-x-3" >
                 <motion.h1 
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
