@@ -71,11 +71,11 @@ const SamyCard = () => {
                             variants={containerAnimation}
                             className=" mt-10 lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center text-center md:justify-center md:items-center md:text-center lg:text-left"
                         >
-                            <motion.h1 variants={itemAnimation} className="text-4xl lg:text-left">Samy🪽</motion.h1>
-                            <motion.h1 variants={itemAnimation} className="text-2xl text-luanColor-50 text-opacity-80 ">Edad: 16 años</motion.h1>
+                            <motion.h1 variants={itemAnimation} className="text-4xl lg:text-left pl-10 md:pl-0">Samy🪽</motion.h1>
+                            <motion.h1 variants={itemAnimation} className="text-2xl text-luanColor-50 text-opacity-80 pl-10 md:pl-0">Edad: 16 años</motion.h1>
                         </motion.dl>
-                        <motion.p variants={itemAnimation} className="text-lunaColor-950 text-opacity-80">Puddle</motion.p>
-                        <motion.p variants={itemAnimation} className="text-lunaColor-950 text-sm text-opacity-60 mb-10 px-10 lg:px-0 lg:pb-0 lg:text-left">
+                        <motion.p variants={itemAnimation} className="text-lunaColor-950 text-opacity-80 pl-10 md:pl-0">Puddle</motion.p>
+                        <motion.p variants={itemAnimation} className="text-lunaColor-950 text-sm text-opacity-60 mb-10 pl-10 md:pl-0 lg:px-0 lg:pb-0 lg:text-left ">
                             Samy fue una pequeña Puddle, una perrita alegre, juguetona y llena de felicidad que dejó una huella profunda en el corazón de su familia. Siempre fue muy querida por todos, aunque también tenía su carácter bravo, que la hacía única. Amaba su caja, el pollito, y su comida húmeda en lata, pequeños placeres que disfrutaba con entusiasmo.
                             <br />
                             <br />

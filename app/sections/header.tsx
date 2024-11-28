@@ -93,7 +93,7 @@ const Header = () => {
                     <h2 className="text-slate-100  font-regular hidden md:block">Pets</h2>
                 </motion.a>
           </header>
-          <dl className="md:ml-[700px] md:mt-2 mt-[200px] fixed ml-2">
+          <dl className="md:ml-[700px] md:mt-2 mt-[38%] fixed ml-2">
             <ButtonPage/>
           </dl>
         </section>

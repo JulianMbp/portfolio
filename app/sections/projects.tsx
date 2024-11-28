@@ -71,33 +71,33 @@ const Projects = () => {
         >
             <motion.section variants={itemAnimation} className="text-white text-4xl font-[family-name:var(--font-kode-bold-mono)] justify-center items-center text-center">
                 Tecnologias Aprendidas
-                <motion.dl variants={containerAnimation} className="grid grid-cols-4 md:grid-cols-5 text-white  gap-3 m-10 md:m-3">
-                    <IconWrapper><SiPostman /></IconWrapper>
-                    <IconWrapper><SiSpringboot /></IconWrapper>
-                    <IconWrapper><FaJava /></IconWrapper>
-                    <IconWrapper><BiLogoMongodb /></IconWrapper>
-                    <IconWrapper><RiNextjsFill /></IconWrapper>
-                    <IconWrapper><FaNodeJs /></IconWrapper>
-                    <IconWrapper><FaReact /></IconWrapper>
-                    <IconWrapper><FaDocker /></IconWrapper>
-                    <IconWrapper><DiPostgresql /></IconWrapper>
-                    <IconWrapper><RiTailwindCssFill /></IconWrapper>
-                    <IconWrapper><FaBootstrap /></IconWrapper>
-                    <IconWrapper><TiHtml5 /></IconWrapper>
-                    <IconWrapper><IoLogoJavascript /></IconWrapper>
-                    <IconWrapper><SiMysql /></IconWrapper>
-                    <IconWrapper><FaPhp /></IconWrapper>
-                    <IconWrapper><SiExpo /></IconWrapper>
-                    <IconWrapper><TbBrandReactNative /></IconWrapper>
-                    <IconWrapper><SiFirebase /></IconWrapper>
-                    <IconWrapper><FaAndroid /></IconWrapper>
-                    <IconWrapper><FaVuejs /></IconWrapper>
-                    <IconWrapper><TbBrandOffice /></IconWrapper>
-                    <IconWrapper><SiMicrosoftazure /></IconWrapper>
-                    <IconWrapper><SiGooglecloud /></IconWrapper>
-                    <IconWrapper><FaGitAlt /></IconWrapper>
-                    <IconWrapper><FaGithub /></IconWrapper>
-                    <IconWrapper><SiAxios /></IconWrapper>
+                <motion.dl variants={containerAnimation} className="grid grid-cols-7 md:grid-cols-5 items-center justify-center text-white  gap-3 gap-x-6 mt-3 md:m-3">
+                    <div className=""><IconWrapper><SiPostman /></IconWrapper></div>
+                    <div className=""><IconWrapper><SiSpringboot /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaJava /></IconWrapper></div>
+                    <div className=""><IconWrapper><BiLogoMongodb /></IconWrapper></div>
+                    <div className=""><IconWrapper><RiNextjsFill /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaNodeJs /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaReact /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaDocker /></IconWrapper></div>
+                    <div className=""><IconWrapper><DiPostgresql /></IconWrapper></div>
+                    <div className=""><IconWrapper><RiTailwindCssFill /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaBootstrap /></IconWrapper></div>
+                    <div className=""><IconWrapper><TiHtml5 /></IconWrapper></div>
+                    <div className=""><IconWrapper><IoLogoJavascript /></IconWrapper></div>
+                    <div className=""><IconWrapper><SiMysql /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaPhp /></IconWrapper></div>
+                    <div className=""><IconWrapper><SiExpo /></IconWrapper></div>
+                    <div className=""><IconWrapper><TbBrandReactNative /></IconWrapper></div>
+                    <div className=""><IconWrapper><SiFirebase /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaAndroid /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaVuejs /></IconWrapper></div>
+                    <div className=""><IconWrapper><TbBrandOffice /></IconWrapper></div>
+                    <div className=""><IconWrapper><SiMicrosoftazure /></IconWrapper></div>
+                    <div className=""><IconWrapper><SiGooglecloud /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaGitAlt /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaGithub /></IconWrapper></div>
+                    <div className=""><IconWrapper><SiAxios /></IconWrapper></div>
                 </motion.dl>
             </motion.section>
 

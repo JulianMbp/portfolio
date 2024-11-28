@@ -23,10 +23,10 @@ export default function Home() {
         <Contact />      
         <AboutMe />
         <Projects />
-        <Experience />
-        <div className="flex justify-center items-center h-full w-full">
+        <div className="flex justify-center items-center md:mt-[5%] md:mb-[10%] mt-[150%] h-full w-full">
           <Video />
         </div>
+        <Experience />
         <Life />
         <Pets />
         <Footer />

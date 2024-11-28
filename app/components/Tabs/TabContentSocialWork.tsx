@@ -17,22 +17,22 @@ const TabCard = () => {
             h-[200px] w-[250px] sm:h-[250px] sm:w-[90%] -mt-10 my-10
             lg:my-10 lg:mr-10 lg:h-[280px] lg:w-[350px]  
             object-cover lg:object-cover shadow-2xl shadow-black" src={Tab} alt="" />
-            <dl className=" order-1 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-brownieColor-100 font-serif pl-10">
+            <dl className=" order-1 lg:w-[70%] text-center lg:text-left grid grid-cols-1 justify-center text-brownieColor-100 font-serif p-10">
                 <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center 
-                text-center md:justify-center md:items-center md:text-center lg:text-left p-5 pl-5">
+                text-center md:justify-center md:items-center md:text-center lg:text-left">
                     <h1 className="text-4xl lg:text-left ">App para gestion de Trabajo Social</h1>
                 </dl>
-                <p className="pl-5 text-brownieColor-100 text-opacity-80">Desarrollar un aplicativo web PHP, JavaScript, Bootstrap, HTML, y MySQL para certificar estudiantes con generación de PDF, seguridad y autenticación en institución educativa.                </p>
-                <p className="pl-5 text-brownieColor-100 text-opacity-80">Diseñar Base de datos.	<br />
-                        Implementar la generación de certificados en PDF. <br />
-                        Desarrollar el Sistema de autenticación y sesiones. <br />
-                        Implementar generación de certificados</p>
-                <dl className="flex gap-3 mt-5 ml-5">
+                <p className=" text-brownieColor-100 text-opacity-80 w-[100%] text-center items-center md:w-[100%] md:text-left pt-5 md:pl-0 ">- Desarrollar un aplicativo web PHP, JavaScript, Bootstrap, HTML, y MySQL para certificar estudiantes con generación de PDF, seguridad y autenticación en institución educativa.     <br />           
+                    - Diseñar Base de datos.	<br />
+                        - Implementar la generación de certificados en PDF. <br />
+                        - Desarrollar el Sistema de autenticación y sesiones. <br />
+                        - Implementar generación de certificados</p>
+                <dl className="grid grid-cols-3 gap-3 mt-5 ">
                     <FaBootstrap className="order-4 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <TiHtml5 className="order-3 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <IoLogoJavascript className="order-2 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <FaPhp className="order-1 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
-                    <SiMysql className="order-5 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
+                    <SiMysql className="col-start-3 order-5 h-16 w-16 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                 </dl>
                 <dl className="flex justify-end items-end">
                     <a href="https://github.com/JulianMbp/PhP-Crud.git" className="bg-slate-200 flex gap-2 items-center  text-zinc-950 rounded-lg p-2 mt-5 hover:scale-110 active:scale-95 active:duration-200 

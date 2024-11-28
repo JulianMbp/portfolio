@@ -22,7 +22,7 @@ const Tabs: React.FC = () => {
   return (
     <div className='w-full max-w-6xl px-2 py-16 sm:px-0 mx-auto'>
       <Tab.Group>
-        <Tab.List className='md:flex grid grid-cols-1 space-x-1 rounded-xl bg-blue-900/20 p-1'>
+        <Tab.List className='md:flex grid grid-cols-1 space-x-1 rounded-xl bg-blue-900/20 p-1 md:m-10 md:mb-0'>
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}
@@ -42,7 +42,7 @@ const Tabs: React.FC = () => {
         </Tab.List>
         <Tab.Panels className='mt-2'>
           {Object.values(categories).map((content, idx) => (
-            <Tab.Panel key={idx} className='rounded-xl bg-red-800 p-3 shadow'>
+            <Tab.Panel key={idx} className='rounded-xl bg-red-800 shadow md:mx-10'>
               <p>{content}</p>
             </Tab.Panel>
           ))}
