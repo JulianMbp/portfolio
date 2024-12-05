@@ -21,10 +21,10 @@ const aboutMe = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="text-3xl order-3 md:order-3 text-slate-50 col-span-2 md:col-span-1">
                     ¡Hola! 👋 <br />
-                    Soy Julián M. Bastidas Pérez, ingeniero de software en formación 🧑‍💻.
+                    Soy Julián M. Bastidas Pérez, ingeniero de software 🧑‍💻.
                     Me encanta crear cosas innovadoras y llevar ideas al siguiente nivel 🚀.
                     Soy una persona divertida, extrovertida y me apasiona programar todo lo que puedas imaginar 💡💻.
-                    Vivo en la hermosa ciudad de Pasto 🏞️, y actualmente estoy cursando el sexto semestre de Ingeniería de Software.
+                    Vivo en la hermosa ciudad de Pasto 🏞️.
                     Siempre que te cruces conmigo, te recibiré con mi mejor sonrisa 😁✨.
                 </motion.p>
                 
