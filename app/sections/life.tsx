@@ -50,7 +50,7 @@ const Life = () => {
                 className="md:float-left"
             >
                 <h1 className="md:row-span-2 text-center md:text-left order-1 md:order-2 font-extrabold text-8xl md:text-[10rem]  text-zinc-50">
-                    Story of my Life
+                    Historia de mi Vida
                 </h1>
             </motion.div>
 

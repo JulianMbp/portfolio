@@ -12,7 +12,7 @@ const aboutMe = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
                     className='font-extrabold from-content2-foreground text-8xl md:text-9xl md:order-1 h-[80%] order-1 text-slate-50 text-center md:text-left col-span-2 md:col-span-1'>
-                    About Me
+                    Sobre Mí
                 </motion.h1>
                 
                 <motion.p 

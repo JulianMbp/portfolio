@@ -70,7 +70,7 @@ const ModalPage: React.FC = () => {
           variants={itemAnimation}
           className="-mt-5 cols-span-1  text-slate-50 text-opacity-60   font-medium text-2xl text-center text-nowrap"
         >
-          Software Engineer
+          Ingeniero de Software
         </motion.h1>
         <motion.div
           variants={itemAnimation}

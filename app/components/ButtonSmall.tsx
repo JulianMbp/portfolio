@@ -19,7 +19,7 @@ const ButtonPage: React.FC = () => {
 {/*                 <h1 className="dark:text-slate-100 font-regular hidden md:block font-[family-name:var(--font-kode-medium-mono)]">Contact_With_Me</h1> */}
             </button>
       <br />
-      <Modal isOpen={isModalOpen} onClose={closeModal} title="Software Engineer" >
+      <Modal isOpen={isModalOpen} onClose={closeModal} title="Ingeniero de Software" >
         <p className="font-semibold text-lg text-cyan-600">Numero de Contacto</p>
         <p className="text-zinc-950 ">315-242-74-21</p>
         <p className="font-semibold  text-lg text-cyan-600">Correo Electronico</p>

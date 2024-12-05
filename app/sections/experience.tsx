@@ -70,7 +70,7 @@ const Experience = () => {
                                 variants={itemAnimation}
                                 className="-mt-8 font-[family-name:var(--font-kode-medium-mono)] text-xl"
                             >
-                                Experience
+                                Experiencia
                             </motion.h1>
                             <motion.a 
                                 variants={itemAnimation}

@@ -54,7 +54,7 @@ const Footer = () => {
             <a href='#projects'>Projects</a>
         </li>
         <li>
-            <Modal isOpen={isModalOpen} onClose={closeModal} title="Software Engineer" >
+            <Modal isOpen={isModalOpen} onClose={closeModal} title="Ingeniero de Software" >
                 <p className="font-semibold text-lg text-cyan-500">Numero de Contacto</p>
                 <p className="text-zinc-950 ">315-242-74-21</p>
                 <p className="font-semibold  text-lg text-cyan-500">Correo Electronico</p>
