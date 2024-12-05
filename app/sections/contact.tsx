@@ -64,7 +64,8 @@ const ModalPage: React.FC = () => {
           variants={itemAnimation}
           className="cols-span-1 text-slate-50 font-medium text-5xl text-center text-nowrap"
         >
-          Julian_MBP.dev
+          {/* Julian_MBP.dev */}
+          Julian_Bastidas
         </motion.h1>
         <motion.h1 
           variants={itemAnimation}
