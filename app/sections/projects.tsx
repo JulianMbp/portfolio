@@ -18,6 +18,10 @@ import { SiGooglecloud } from "react-icons/si";
 import { FaAndroid } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { TbBrandOffice } from "react-icons/tb";
+import { FaPython } from "react-icons/fa6";
+import { DiDjango } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiHiveBlockchain } from "react-icons/si";
 
 const Projects = () => {
     const containerAnimation = {
@@ -67,7 +71,7 @@ const Projects = () => {
             viewport={{ once: true }}
             variants={containerAnimation}
             id="projects" 
-            className="mb-[300px] mt-[80%] md:mt-0 grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1 h-screen w-screen items-center justify-center object-center text-center p-12"
+            className="mb-[350%] md:mb-[50%] mt-[80%] md:mt-0 grid lg:grid-cols-5 gird md:grid-cols-2 grid-cols-1 h-screen w-screen items-center justify-center object-center text-center p-12"
         >
             <motion.section variants={itemAnimation} className="text-white text-4xl font-[family-name:var(--font-kode-bold-mono)] justify-center items-center text-center">
                 Tecnologias Aprendidas
@@ -98,6 +102,10 @@ const Projects = () => {
                     <div className=""><IconWrapper><FaGitAlt /></IconWrapper></div>
                     <div className=""><IconWrapper><FaGithub /></IconWrapper></div>
                     <div className=""><IconWrapper><SiAxios /></IconWrapper></div>
+                    <div className=""><IconWrapper><FaPython /></IconWrapper></div>
+                    <div className=""><IconWrapper><DiDjango /></IconWrapper></div>
+                    <div className=""><IconWrapper><SiHiveBlockchain /></IconWrapper></div>
+                    
                 </motion.dl>
             </motion.section>
 
@@ -134,6 +142,9 @@ const Projects = () => {
                     <IconWrapper><FaGitAlt /></IconWrapper>
                     <IconWrapper><FaGithub /></IconWrapper>
                     <IconWrapper><SiAxios /></IconWrapper>
+                    <IconWrapper><FaPython /></IconWrapper>
+                    <IconWrapper><DiDjango /></IconWrapper>
+                    <IconWrapper><SiHiveBlockchain /></IconWrapper>
                 </motion.dl>
             </motion.section>
         </motion.section>

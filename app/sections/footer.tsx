@@ -41,17 +41,17 @@ const Footer = () => {
                 <SlSocialTwitter className="order-4 h-8 w-8 text-slate-100"/>
             </a>
         </dl>
-        <h1 className="flex gap-1">Made with<svg className="h-6 w-6 text-slate-100 animate-pulse "  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>        by Julian</h1>
+        <h1 className="flex gap-1">Hecho con<svg className="h-6 w-6 text-slate-100 animate-pulse "  fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>        Por Julian B.</h1>
         
         <ul className='flex text-center gap-5 py-4 text-sm'>
         <li >
-            <a href='#home'>Home</a>
+            <a href='#home'>Inicio</a>
         </li>
         <li>
-            <a href='#about'>About Me</a>
+            <a href='#about'>Sobre Mi</a>
         </li>
         <li>
-            <a href='#projects'>Projects</a>
+            <a href='#projects'>proyectos</a>
         </li>
         <li>
             <Modal isOpen={isModalOpen} onClose={closeModal} title="Ingeniero de Software" >
@@ -65,7 +65,7 @@ const Footer = () => {
                             hover:shadow-2xl transition-all" href="mailto:julian.bastidasmp@gmail.com">Escribir Correo</a>
                 </dl>
             </Modal>
-            <a href='#contact' onClick={openModal}>Contact Me</a>
+            <a href='#contact' onClick={openModal}>Contactame!</a>
         </li>
         </ul>
     </footer>

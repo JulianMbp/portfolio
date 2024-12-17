@@ -32,7 +32,7 @@ const aboutMe = () => {
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
-                    className="order-2 md:order-2 lg:items-center lg:justify-center md:row-span-2">
+                    className="order-2 md:order-2 lg:items-center lg:justify-center md:row-span-2 my-10 md:my-0">
                     <Image className="lg:rounded-lg rounded-full md:rounded-3xl h-[350px] lg:h-auto sm:w-[100%] object-cover md:object-cover shadow-2xl shadow-black" src={ImgAbout} alt="" />
                 </motion.dl>
             </section>

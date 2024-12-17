@@ -48,7 +48,7 @@ const Experience = () => {
             viewport={{ once: true }}
             variants={containerAnimation}
             id="experience" 
-            className="flex h-screen w-screen items-center justify-center mt-[20%] lg:mt-0"
+            className="flex h-screen w-screen items-center justify-center mb-[10%] mt-[20%] lg:mt-0"
         >
             <motion.section 
                 variants={borderAnimation}
@@ -76,7 +76,9 @@ const Experience = () => {
                                 variants={itemAnimation}
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="duration-30 items-center gap-3 shadow-xl hover:bg-minecraft-border-500 hover:border gap-x-3 pl-1 bg-minecraft-border-500 ml-[60%] md:ml-[85%] h-6 w-[50px] md:w-[150px] border border-zinc-950 rounded-sm -mt-7 flex" 
+                                className="duration-30 items-center gap-3 shadow-xl hover:bg-minecraft-border-500 hover:border 
+                                gap-x-3 pl-1 bg-minecraft-border-500 ml-[80%] md:ml-[85%] h-6 w-[50px] md:w-[150px] border 
+                                border-zinc-950 rounded-sm -mt-7 flex" 
                                 href="https://drive.google.com/file/d/12j5U5CZJAC6yy3Mg0jEfXIMPy9fz3N3t/view?usp=drive_link"
                             >
                                 <dl className="flex">
@@ -92,7 +94,7 @@ const Experience = () => {
                             <div className="flex flex-col justify-center items-center">
                                 <motion.dl 
                                     variants={itemAnimation}
-                                    className="mt-5 transition-all flex flex-row"
+                                    className="mt-5 transition-all flex flex-col  md:flex-row"
                                 >
                                     <ButtonExp />
                                     <ButtonExpUni />

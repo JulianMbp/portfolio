@@ -6,6 +6,7 @@ import TabContent1 from "@/app/components/Tabs/TabContentSocialWork";
 import TabContent2 from "@/app/components/Tabs/TabContentBooks";
 import TabContent3 from "@/app/components/Tabs/TabContentEps";
 import TabContent4 from "@/app/components/Tabs/TabContentHackaton";
+import TabContent5 from "@/app/components/Tabs/TabContentHackatonAI";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -16,7 +17,8 @@ const Tabs: React.FC = () => {
     'Trabajo Social': <TabContent1/>,
     'EPS': <TabContent3/>,
     'Venta de Cursos': <TabContent2/>,
-    'Hackaton🏆': <TabContent4/>,
+    'Hackaton Nexo Digital': <TabContent4/>,
+    'Hackaton PotencIA Summit 2024': <TabContent5/>
   };
 
   return (

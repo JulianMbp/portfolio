@@ -31,14 +31,16 @@ const Life = () => {
             whileInView="show"
             viewport={{ once: true }}
             variants={containerAnimation}
-            className="px-10 md:px-48 grid grid-cols-1 md:py-[100px] md:grid-cols-[1fr_2fr] md:grid-rows-[0.75fr_0fr_1fr] grid-rows-[0.5fr_0.75fr] gap-x-5" 
+            className="px-10 md:px-48 grid grid-cols-1 md:py-[100px] 
+            md:grid-cols-[1fr_2fr] md:grid-rows-[0.75fr_0fr_1fr] grid-rows-[0.5fr_0.75fr] gap-x-5" 
             id="life"
         >
             <motion.div 
                 variants={itemAnimation}
                 className="md:row-span-3 md:pb-10"
             >
-                <Image className="object-cover rounded-full md:rounded-3xl h-[] md:h-[100%] md:w-[100%] shadow-2xl shadow-black" 
+                <Image className="object-cover rounded-full 
+                md:rounded-3xl h-[] md:h-[100%] md:w-[100%] shadow-2xl shadow-black" 
                     src={ImageLife} 
                     alt="Life Image" 
                     priority
@@ -49,7 +51,8 @@ const Life = () => {
                 variants={itemAnimation}
                 className="md:float-left"
             >
-                <h1 className="md:row-span-2 text-center md:text-left order-1 md:order-2 font-extrabold text-8xl md:text-[10rem]  text-zinc-50">
+                <h1 className="md:row-span-2 text-center
+                md:text-left order-1 md:order-2 my-10 md:my-0 font-extrabold text-6xl md:text-[10rem]  text-zinc-50">
                     Historia de mi Vida
                 </h1>
             </motion.div>
@@ -73,7 +76,7 @@ const Life = () => {
                 variants={itemAnimation}
                 className="md:col-span-2 md:row-start-3 md:col-start-2 text-justify"
             >            
-                <p className="font-extralight text-3xl text-zinc-50 order-4 md:order-4 md:col-span-2 md:pt-0">
+                <p className="hidden md:block font-extralight text-3xl text-zinc-50 order-4 md:order-4 md:col-span-2 md:pt-0">
                     La música siempre ha sido otra de mis pasiones. Aprendí a tocar la guitarra, formé parte del coro de mi colegio, 
                     y durante mi juventud escribí algunas canciones. Me encanta pasar tiempo con mis amigos, bailar y cantar.
                     Actualmente, estoy homologando mi carrera de Ingeniería de Software. Comencé mis estudios de manera virtual en la 

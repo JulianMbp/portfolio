@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
         <section className="flex flex-col md:items-center border">
-          <header className="gap-2 md:justify-between md:items-center order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-5 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent border border-slate-100 rounded-3xl">
+          <header className="gap-2 md:justify-between md:items-center order-1 m-2 fixed p-2 grid grid-cols-1 md:grid-cols-4 col-span-1 items-center bg-[#0F0F0F] bg-opacity-80 backdrop-filter backdrop-blur-sm transparent border border-slate-100 rounded-3xl">
                 {/* About Me */}
                 <motion.a 
                     whileHover="hover"
@@ -68,7 +68,7 @@ const Header = () => {
                 </motion.a>
 
                 {/* Life */}
-                <motion.a 
+{/*                 <motion.a 
                     whileHover="hover"
                     whileTap="tap"
                     variants={iconAnimation}
@@ -80,7 +80,7 @@ const Header = () => {
                     </svg>
                     <h2 className="text-slate-100  font-regular hidden md:block">Vida</h2>
                 </motion.a>
-
+ */}
                 {/* Pets */}
                 <motion.a 
                     whileHover="hover"
@@ -93,7 +93,7 @@ const Header = () => {
                     <h2 className="text-slate-100  font-regular hidden md:block">Masscotas</h2>
                 </motion.a>
           </header>
-          <dl className="md:ml-[700px] md:mt-2 mt-[38%] fixed ml-2">
+          <dl className="md:ml-[580px] md:mt-2 mt-[40%] fixed ml-2">
             <ButtonPage/>
           </dl>
         </section>
