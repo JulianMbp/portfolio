@@ -2,6 +2,7 @@
 import Modal from '@/app/components/Modal';
 import { useState } from 'react';
 import { FaFacebookSquare } from "react-icons/fa";
+import { IoIosMail } from 'react-icons/io';
 import { MdAttachEmail } from "react-icons/md";
 import { SlSocialGithub, SlSocialInstagram, SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
 
@@ -60,9 +61,12 @@ const Footer = () => {
                 <p className="font-semibold  text-lg text-cyan-500">Correo Electronico</p>
                 <dl className="flex items-center justify-between">
                     <p className="text-zinc-950 ">julian.bastidasmp@gmail.com</p>
-                    <a className="duration-300 text-slate-50 flex items-center rounded-3xl p-3 bg-blue-500 gap-3 
-                            shadow-xl hover:border-hidden hover:scale-150 active:scale-95 active:duration-200 
-                            hover:shadow-2xl transition-all" href="mailto:julian.bastidasmp@gmail.com">Escribir Correo</a>
+        <a className="duration-300 gap-2 text-slate-50 flex items-center rounded-3xl p-3 text-xs md:text-lg bg-blue-500
+                    shadow-xl hover:border-hidden hover:scale-110 active:scale-95 active:duration-200 
+                    hover:shadow-2xl transition-all" href="mailto:julian.bastidasmp@gmail.com">
+                      <IoIosMail className=" h-8 w-8"></IoIosMail>
+                      <h1 className="md:block hidden">Escribir Correo</h1>
+                      </a>
                 </dl>
             </Modal>
             <a href='#contact' onClick={openModal}>Contactame!</a>

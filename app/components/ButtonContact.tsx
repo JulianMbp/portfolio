@@ -1,6 +1,7 @@
 'use client';
 import Modal from '@/app/components/Modal';
 import { useState } from 'react';
+import { IoIosMail } from 'react-icons/io';
 
 
 const ButtonPage: React.FC = () => {
@@ -24,10 +25,13 @@ const ButtonPage: React.FC = () => {
         <p className="font-semibold  text-lg text-cyan-500">Correo Electronico</p>
         <dl className="flex items-center justify-between">
           <p className="text-zinc-950">julian.bastidasmp@gmail.com</p>
-          <a className="duration-300 text-slate-50 flex items-center rounded-3xl p-3 bg-blue-500 gap-3 
+          <a className="duration-300 gap-2 text-slate-50 flex items-center rounded-3xl p-3 text-xs md:text-lg bg-blue-500
                     shadow-xl hover:border-hidden hover:scale-110 active:scale-95 active:duration-200 
-                    hover:shadow-2xl transition-all" href="mailto:julian.bastidasmp@gmail.com">Escribir Correo</a>
-        </dl>
+                    hover:shadow-2xl transition-all" href="mailto:julian.bastidasmp@gmail.com">
+                      <IoIosMail className=" h-8 w-8"></IoIosMail>
+                      <h1 className="md:block hidden">Escribir Correo</h1>
+                      </a>
+          </dl>
       </Modal>
       </section>
     );

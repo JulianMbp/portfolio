@@ -17,12 +17,14 @@ const TabCard = () => {
         <section className="bg-violet-600 h-[100%] w-[100%] rounded-lg  ">
             <dl className="rounded-3xl flex lg:gap-10 gap-5 flex-col lg:flex-row justify-center items-center pr-4">
                 
-                <Image className="order-2 items-center justify-center rounded-3xl sm:rounded-3xl transition-all ease-in 
-                delay-300 sm:transition-all sm:ease-in sm:delay-300 
-                md:transition-all md:ease-in md:delay-300 lg:transition-all lg:rounded-3xl
-                h-[200px] w-[250px] sm:h-[200px] sm:w-[90%]
-                lg:h-[280px] lg:w-[200px]  p-5 lg:p-0
-                object-cover lg:object-cover shadow-2xl shadow-black" src={Tab} alt="" />
+            <div className="order-2 items.center w-[100%] pb-2 pl-5">
+                <Image className="  rounded-3xl sm:rounded-3xl transition-all ease-in 
+                    delay-300 sm:transition-all sm:ease-in sm:delay-300 
+                    md:transition-all md:ease-in md:delay-300 lg:transition-all lg:rounded-3xl
+                    h-[100%] w-[110%] sm:h-[200px] sm:w-[100%]
+                    lg:h-[280px] lg:w-[200px]  lg:p-0
+                    object-cover lg:object-cover shadow-2xl shadow-black" src={Tab} alt="" />
+                </div>
                 <dl className="p-10 order-1 
                 lg:w-[100%] text-center lg:text-left flex flex-col justify-center
                 text-slate-50 font-serif ">

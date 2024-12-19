@@ -12,6 +12,8 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiAxios } from "react-icons/si";
 import { SiHiveBlockchain } from "react-icons/si";
 import { SlSocialGithub } from "react-icons/sl";
+import { FaYoutube } from "react-icons/fa";
+
 
 
 
@@ -21,12 +23,14 @@ const TabCard = () => {
     return (
         <section className="bg-cyan-500 h-[100%] w-[100%] rounded-lg  ">
             <dl className="rounded-3xl flex lg:gap-10 gap-5 flex-col lg:flex-row justify-center items-center pr-4">
-            <Image className=" order-2 rounded-3xl sm:rounded-3xl transition-all ease-in 
-                delay-300 sm:transition-all sm:ease-in sm:delay-300 
-                md:transition-all md:ease-in md:delay-300 lg:transition-all lg:rounded-3xl
-                h-[200px] w-[250px] sm:h-[200px] sm:w-[90%]
-                lg:h-[280px] lg:w-[200px]  p-5 lg:p-0
-                object-cover lg:object-cover shadow-2xl shadow-black" src={Tab} alt="" />
+                <div className="order-2 items.center w-[100%] pb-2 pl-5">
+                <Image className="  rounded-3xl sm:rounded-3xl transition-all ease-in 
+                    delay-300 sm:transition-all sm:ease-in sm:delay-300 
+                    md:transition-all md:ease-in md:delay-300 lg:transition-all lg:rounded-3xl
+                    h-[100%] w-[110%] sm:h-[200px] sm:w-[100%]
+                    lg:h-[280px] lg:w-[200px]  lg:p-0
+                    object-cover lg:object-cover shadow-2xl shadow-black" src={Tab} alt="" />
+                </div>
             <dl className="p-10 order-1 lg:w-[70%] text-center lg:text-left flex flex-col justify-center text-slate-50 font-serif pl-10">
                 <dl className="lg:flex lg:justify-between grid grid-cols-1 md:grid md:grid-cols-1 justify-center items-center 
                 text-center md:justify-center md:items-center md:text-center lg:text-left ">
@@ -53,13 +57,22 @@ const TabCard = () => {
                     <SiAxios className="order-9 h-10 w-10 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                     <SiHiveBlockchain className="order-10 h-10 w-10 hover:duration-500  hover:scale-125 hover:shadow-2xl transition-all active:scale-95 active:duration-200" />
                 </dl>
+                <div className="flex justify-between gap-5 mt-2 md:mt-2">
                 <dl className="flex justify-end items-end">
                     <a href="https://github.com/JulianMbp/Medicamentos.git" className="bg-slate-200 flex gap-2 items-center  text-zinc-950 rounded-lg p-2 mt-5 hover:scale-110 active:scale-95 active:duration-200 
                     hover:shadow-2xl transition-all">
                         <SlSocialGithub className=" h-8 w-8 text-slate-950"/>
-                        <h1>Repositorio</h1>
+                        <h1 className="hidden md:block">Repositorio</h1>
                     </a>
                 </dl>
+                <div className="flex justify-end items-end">
+                    <a href="https://youtu.be/Eze1uJar93A" className="bg-slate-200 flex gap-2 items-center  text-zinc-950 rounded-lg p-2 mt-5 hover:scale-110 active:scale-95 active:duration-200 
+                    hover:shadow-2xl transition-all">
+                        <FaYoutube className="h-8 w-8 text-slate-950"></FaYoutube>
+                        <h1 className="hidden md:block">Presentacion</h1>
+                    </a>
+                </div>
+                </div>
             </dl>
             </dl>
         </section>
