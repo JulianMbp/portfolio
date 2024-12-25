@@ -14,11 +14,11 @@ function classNames(...classes: string[]) {
 
 const Tabs: React.FC = () => {
   const categories = {
-    'Trabajo Social': <TabContent1/>,
+    'Hackaton PotencIA Summit 2024': <TabContent5/>,
     'EPS': <TabContent3/>,
     'Venta de Cursos': <TabContent2/>,
     'Hackaton Nexo Digital': <TabContent4/>,
-    'Hackaton PotencIA Summit 2024': <TabContent5/>
+    'Trabajo Social': <TabContent1/>
   };
 
   return (
